@@ -1,0 +1,278 @@
+<h1 id="deep-mutational-scanning-using-hiv-envelope-strain-tro11-to-identify-mutations-that-escape-neutralization-by-antibodies-3bnc117-and-10-1074">Deep mutational scanning using HIV Envelope strain TRO11 to identify mutations that escape neutralization by antibodies 3BNC117 and 10-1074</h1>
+<p>Analysis by Caelan Radford and Jesse Bloom (2024)</p>
+<p>See <a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074">https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074</a> for full code.</p>
+<div class="toc"><span class="toctitle">Contents</span><ul>
+<li><a href="#barcode-to-codon-variant-lookup-table">Barcode to codon-variant lookup table</a></li>
+<li><a href="#count-barcodes-for-variants">Count barcodes for variants</a></li>
+<li><a href="#functional-effects-of-mutations">Functional effects of mutations</a></li>
+<li><a href="#antibodyserum-escape">Antibody/serum escape</a></li>
+<li><a href="#integrated-summary-plots">Integrated summary plots</a></li>
+<li><a href="#additional-analysis-specific-files">Additional analysis-specific files</a></li>
+</ul>
+</div>
+<h2 id="barcode-to-codon-variant-lookup-table">Barcode to codon-variant lookup table</h2>
+<h4 id="analysis-notebooks">Analysis notebooks</h4>
+<ul>
+<li><a href="notebooks/analyze_pacbio_ccs.html">Analysis of PacBio CCSs</a></li>
+<li><a href="notebooks/build_pacbio_consensus.html">Building barcoded variant consensus sequences</a></li>
+<li><a href="notebooks/build_codon_variants.html">Building of codon-variant table</a></li>
+</ul>
+<h4 id="data-files">Data files</h4>
+<ul>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/gene_sequence/codon.fasta">parental codon sequence</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/gene_sequence/protein.fasta">parental protein sequence</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/variants/codon_variants.csv">barcode to codon-variant lookup table</a></li>
+</ul>
+<h2 id="count-barcodes-for-variants">Count barcodes for variants</h2>
+<h4 id="analysis-notebooks_1">Analysis notebooks</h4>
+<h4 id="data-files_1">Data files</h4>
+<ul>
+<li><details><summary>Barcode count CSVs (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/A-230223-rescue_1-no_antibody-1_counts.csv">A-230223-rescue_1-no_antibody-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/A-230223-rescue_1-VSVG-1_counts.csv">A-230223-rescue_1-VSVG-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/B-230223-rescue_1-no_antibody-1_counts.csv">B-230223-rescue_1-no_antibody-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/B-230223-rescue_1-VSVG-1_counts.csv">B-230223-rescue_1-VSVG-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/A-230503-rescue_2-no_antibody-1_counts.csv">A-230503-rescue_2-no_antibody-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/A-230503-rescue_2-3BNC117-10.0-1_counts.csv">A-230503-rescue_2-3BNC117-10.0-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/A-230503-rescue_2-3BNC117-20.0-1_counts.csv">A-230503-rescue_2-3BNC117-20.0-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/A-230503-rescue_2-3BNC117-40.0-1_counts.csv">A-230503-rescue_2-3BNC117-40.0-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/A-230503-rescue_2-10-1074-5.0-1_counts.csv">A-230503-rescue_2-10-1074-5.0-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/A-230503-rescue_2-10-1074-10.0-1_counts.csv">A-230503-rescue_2-10-1074-10.0-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/A-230503-rescue_2-10-1074-20.0-1_counts.csv">A-230503-rescue_2-10-1074-20.0-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/A-230503-rescue_2-VSVG-1_counts.csv">A-230503-rescue_2-VSVG-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/B-230711-rescue_2-no_antibody-1_counts.csv">B-230711-rescue_2-no_antibody-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/B-230711-rescue_2-3BNC117-1.0-1_counts.csv">B-230711-rescue_2-3BNC117-1.0-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/B-230711-rescue_2-3BNC117-3.0-1_counts.csv">B-230711-rescue_2-3BNC117-3.0-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/B-230711-rescue_2-3BNC117-5.0-1_counts.csv">B-230711-rescue_2-3BNC117-5.0-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/B-230711-rescue_2-VSVG-1_counts.csv">B-230711-rescue_2-VSVG-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/A-230714-rescue_3-4-no_antibody-1_counts.csv">A-230714-rescue_3-4-no_antibody-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/A-230714-rescue_3-4-3BNC117-1.0-1_counts.csv">A-230714-rescue_3-4-3BNC117-1.0-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/A-230714-rescue_3-4-3BNC117-3.0-1_counts.csv">A-230714-rescue_3-4-3BNC117-3.0-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/A-230714-rescue_3-4-3BNC117-5.0-1_counts.csv">A-230714-rescue_3-4-3BNC117-5.0-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/A-230714-rescue_3-4-VSVG-1_counts.csv">A-230714-rescue_3-4-VSVG-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/B-230822-rescue_4-no_antibody-1_counts.csv">B-230822-rescue_4-no_antibody-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/B-230822-rescue_4-3BNC117-1.0-1_counts.csv">B-230822-rescue_4-3BNC117-1.0-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/B-230822-rescue_4-3BNC117-3.0-1_counts.csv">B-230822-rescue_4-3BNC117-3.0-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/B-230822-rescue_4-3BNC117-5.0-1_counts.csv">B-230822-rescue_4-3BNC117-5.0-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/B-230822-rescue_4-VSVG-1_counts.csv">B-230822-rescue_4-VSVG-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/B-230822-rescue_4-VSVG-2_counts.csv">B-230822-rescue_4-VSVG-2</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/A-230906-rescue_5-no_antibody-1_counts.csv">A-230906-rescue_5-no_antibody-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/A-230906-rescue_5-3BNC117-1.0-1_counts.csv">A-230906-rescue_5-3BNC117-1.0-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/A-230906-rescue_5-3BNC117-3.0-1_counts.csv">A-230906-rescue_5-3BNC117-3.0-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/A-230906-rescue_5-3BNC117-5.0-1_counts.csv">A-230906-rescue_5-3BNC117-5.0-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/A-230906-rescue_5-10-1074-2.5-1_counts.csv">A-230906-rescue_5-10-1074-2.5-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/A-230906-rescue_5-10-1074-7.5-1_counts.csv">A-230906-rescue_5-10-1074-7.5-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/A-230906-rescue_5-10-1074-15.0-1_counts.csv">A-230906-rescue_5-10-1074-15.0-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/A-230906-rescue_5-VSVG-1_counts.csv">A-230906-rescue_5-VSVG-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/B-231011-rescue_6_ultra-no_antibody-1_counts.csv">B-231011-rescue_6_ultra-no_antibody-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/B-231011-rescue_6_ultra-3BNC117-2.5-1_counts.csv">B-231011-rescue_6_ultra-3BNC117-2.5-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/B-231011-rescue_6_ultra-3BNC117-5.0-1_counts.csv">B-231011-rescue_6_ultra-3BNC117-5.0-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/B-231011-rescue_6_ultra-3BNC117-10.0-1_counts.csv">B-231011-rescue_6_ultra-3BNC117-10.0-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/B-231011-rescue_6_ultra-3BNC117-20.0-1_counts.csv">B-231011-rescue_6_ultra-3BNC117-20.0-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/B-231011-rescue_6_ultra-10-1074-2.5-1_counts.csv">B-231011-rescue_6_ultra-10-1074-2.5-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/B-231011-rescue_6_ultra-10-1074-5.0-1_counts.csv">B-231011-rescue_6_ultra-10-1074-5.0-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/B-231011-rescue_6_ultra-10-1074-10.0-1_counts.csv">B-231011-rescue_6_ultra-10-1074-10.0-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/B-231011-rescue_6_ultra-10-1074-20.0-1_counts.csv">B-231011-rescue_6_ultra-10-1074-20.0-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/B-231011-rescue_6_ultra-10-1074-2.5-2_counts.csv">B-231011-rescue_6_ultra-10-1074-2.5-2</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/B-231011-rescue_6_ultra-10-1074-5.0-2_counts.csv">B-231011-rescue_6_ultra-10-1074-5.0-2</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/B-231011-rescue_6_ultra-10-1074-10.0-2_counts.csv">B-231011-rescue_6_ultra-10-1074-10.0-2</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/B-231011-rescue_6_ultra-10-1074-20.0-2_counts.csv">B-231011-rescue_6_ultra-10-1074-20.0-2</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/B-231011-rescue_6_ultra-VSVG-1_counts.csv">B-231011-rescue_6_ultra-VSVG-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/B-231018-rescue_6_poly-L-lysine-no_antibody-1_counts.csv">B-231018-rescue_6_poly-L-lysine-no_antibody-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/B-231018-rescue_6_poly-L-lysine-10-1074-2.5-1_counts.csv">B-231018-rescue_6_poly-L-lysine-10-1074-2.5-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/B-231018-rescue_6_poly-L-lysine-10-1074-5.0-1_counts.csv">B-231018-rescue_6_poly-L-lysine-10-1074-5.0-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/B-231018-rescue_6_poly-L-lysine-10-1074-10.0-1_counts.csv">B-231018-rescue_6_poly-L-lysine-10-1074-10.0-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/B-231018-rescue_6_poly-L-lysine-10-1074-20.0-1_counts.csv">B-231018-rescue_6_poly-L-lysine-10-1074-20.0-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/B-231018-rescue_6_poly-L-lysine-10-1074-2.5-2_counts.csv">B-231018-rescue_6_poly-L-lysine-10-1074-2.5-2</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/B-231018-rescue_6_poly-L-lysine-10-1074-5.0-2_counts.csv">B-231018-rescue_6_poly-L-lysine-10-1074-5.0-2</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/B-231018-rescue_6_poly-L-lysine-10-1074-10.0-2_counts.csv">B-231018-rescue_6_poly-L-lysine-10-1074-10.0-2</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/B-231018-rescue_6_poly-L-lysine-10-1074-20.0-2_counts.csv">B-231018-rescue_6_poly-L-lysine-10-1074-20.0-2</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/B-231018-rescue_6-VSVG-1_counts.csv">B-231018-rescue_6-VSVG-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/A-240223-rescue_6_no_antibody-1_counts.csv">A-240223-rescue_6_no_antibody-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/A-240223-rescue_6_VSVG-1_counts.csv">A-240223-rescue_6_VSVG-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/barcode_counts/A-240223-rescue_6_VSVG-2_counts.csv">A-240223-rescue_6_VSVG-2</a></li>
+</ul></details>
+
+</li>
+</ul>
+<h2 id="functional-effects-of-mutations">Functional effects of mutations</h2>
+<h4 id="final-summary-plots">Final summary plots</h4>
+<ul>
+<li><details><summary>Interactive plots of average mutation functional effects (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="htmls/TZM-bl_entry_func_effects.html">TZM-bl_entry</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>Interactive plots of average mutation latent-phenotype effects (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="htmls/TZM-bl_entry_latent_effects.html">TZM-bl_entry</a></li>
+</ul></details>
+
+</li>
+</ul>
+<h4 id="analysis-notebooks_2">Analysis notebooks</h4>
+<ul>
+<li><a href="notebooks/analyze_func_scores.html">Analysis of functional scores</a></li>
+<li><details><summary>Notebooks with per-selection global epistasis fitting (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="notebooks/func_effects_global_epistasis_A-230223-1-1.html">A-230223-1-1</a></li>
+<li><a href="notebooks/func_effects_global_epistasis_A-230503-1-1.html">A-230503-1-1</a></li>
+<li><a href="notebooks/func_effects_global_epistasis_A-230714-1-1.html">A-230714-1-1</a></li>
+<li><a href="notebooks/func_effects_global_epistasis_B-230223-1-1.html">B-230223-1-1</a></li>
+<li><a href="notebooks/func_effects_global_epistasis_B-230711-1-1.html">B-230711-1-1</a></li>
+<li><a href="notebooks/func_effects_global_epistasis_B-230822-1-1.html">B-230822-1-1</a></li>
+<li><a href="notebooks/func_effects_global_epistasis_A-230906-1-1.html">A-230906-1-1</a></li>
+<li><a href="notebooks/func_effects_global_epistasis_B-231011-1-1.html">B-231011-1-1</a></li>
+<li><a href="notebooks/func_effects_global_epistasis_B-231018-poly-L-lysine-1-1.html">B-231018-poly-L-lysine-1-1</a></li>
+<li><a href="notebooks/func_effects_global_epistasis_A-240223-1-1.html">A-240223-1-1</a></li>
+<li><a href="notebooks/func_effects_global_epistasis_A-240223-1-2.html">A-240223-1-2</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>Notebooks averaging mutation functional effects (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="notebooks/avg_func_effects_TZM-bl_entry.html">TZM-bl_entry</a></li>
+</ul></details>
+
+</li>
+</ul>
+<h4 id="data-files_2">Data files</h4>
+<ul>
+<li><details><summary>Per-variant functional score CSVs (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/func_scores/A-230223-1-1_func_scores.csv">A-230223-1-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/func_scores/A-230503-1-1_func_scores.csv">A-230503-1-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/func_scores/A-230714-1-1_func_scores.csv">A-230714-1-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/func_scores/B-230223-1-1_func_scores.csv">B-230223-1-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/func_scores/B-230711-1-1_func_scores.csv">B-230711-1-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/func_scores/B-230822-1-1_func_scores.csv">B-230822-1-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/func_scores/A-230906-1-1_func_scores.csv">A-230906-1-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/func_scores/B-231011-1-1_func_scores.csv">B-231011-1-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/func_scores/B-231018-poly-L-lysine-1-1_func_scores.csv">B-231018-poly-L-lysine-1-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/func_scores/A-240223-1-1_func_scores.csv">A-240223-1-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/func_scores/A-240223-1-2_func_scores.csv">A-240223-1-2</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>Per-selection mutation functional effect CSVs (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/func_effects/by_selection/A-230223-1-1_func_effects.csv">A-230223-1-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/func_effects/by_selection/A-230503-1-1_func_effects.csv">A-230503-1-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/func_effects/by_selection/A-230714-1-1_func_effects.csv">A-230714-1-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/func_effects/by_selection/B-230223-1-1_func_effects.csv">B-230223-1-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/func_effects/by_selection/B-230711-1-1_func_effects.csv">B-230711-1-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/func_effects/by_selection/B-230822-1-1_func_effects.csv">B-230822-1-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/func_effects/by_selection/A-230906-1-1_func_effects.csv">A-230906-1-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/func_effects/by_selection/B-231011-1-1_func_effects.csv">B-231011-1-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/func_effects/by_selection/B-231018-poly-L-lysine-1-1_func_effects.csv">B-231018-poly-L-lysine-1-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/func_effects/by_selection/A-240223-1-1_func_effects.csv">A-240223-1-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/func_effects/by_selection/A-240223-1-2_func_effects.csv">A-240223-1-2</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>Average mutation functional effects (CSV files) (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/func_effects/averages/TZM-bl_entry_func_effects.csv">TZM-bl_entry</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>Average mutation latent-phenotype effects (CSV files) (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/func_effects/averages/TZM-bl_entry_func_effects.csv">TZM-bl_entry</a></li>
+</ul></details>
+
+</li>
+</ul>
+<h2 id="antibodyserum-escape">Antibody/serum escape</h2>
+<h4 id="final-summary-plots_1">Final summary plots</h4>
+<ul>
+<li><details><summary>antibody escape mutation effect plots (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="htmls/3BNC117_mut_effect.html">3BNC117</a></li>
+<li><a href="htmls/10-1074_mut_effect.html">10-1074</a></li>
+</ul></details>
+
+</li>
+</ul>
+<h4 id="analysis-notebooks_3">Analysis notebooks</h4>
+<ul>
+<li><details><summary>Fits of polyclonal models to individual antibody escape selections (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="notebooks/fit_escape_antibody_escape_B-230711-rescue_2-3BNC117-1.html">B-230711-rescue_2-3BNC117-1</a></li>
+<li><a href="notebooks/fit_escape_antibody_escape_A-230906-rescue_5-3BNC117-1.html">A-230906-rescue_5-3BNC117-1</a></li>
+<li><a href="notebooks/fit_escape_antibody_escape_A-230906-rescue_5-10-1074-1.html">A-230906-rescue_5-10-1074-1</a></li>
+<li><a href="notebooks/fit_escape_antibody_escape_B-231011-rescue_6_ultra-3BNC117-1.html">B-231011-rescue_6_ultra-3BNC117-1</a></li>
+<li><a href="notebooks/fit_escape_antibody_escape_B-231011-rescue_6_ultra-10-1074-1.html">B-231011-rescue_6_ultra-10-1074-1</a></li>
+<li><a href="notebooks/fit_escape_antibody_escape_B-231011-rescue_6_ultra-10-1074-2.html">B-231011-rescue_6_ultra-10-1074-2</a></li>
+<li><a href="notebooks/fit_escape_antibody_escape_B-231018-rescue_6_poly-L-lysine-10-1074-1.html">B-231018-rescue_6_poly-L-lysine-10-1074-1</a></li>
+<li><a href="notebooks/fit_escape_antibody_escape_B-231018-rescue_6_poly-L-lysine-10-1074-2.html">B-231018-rescue_6_poly-L-lysine-10-1074-2</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>Average selections for antibody escape (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="notebooks/avg_escape_antibody_escape_3BNC117.html">3BNC117</a></li>
+<li><a href="notebooks/avg_escape_antibody_escape_10-1074.html">10-1074</a></li>
+</ul></details>
+
+</li>
+</ul>
+<h4 id="data-files_3">Data files</h4>
+<ul>
+<li><details><summary>Probability (fraction) escape for each variant in each antibody escape selection (CSVs) (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/antibody_escape/by_selection/B-230711-rescue_2-3BNC117-1/B-230711-rescue_2-3BNC117-1.0-1_prob_escape.csv">B-230711-rescue_2-3BNC117-1 B-230711-rescue_2-3BNC117-1.0-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/antibody_escape/by_selection/B-230711-rescue_2-3BNC117-1/B-230711-rescue_2-3BNC117-3.0-1_prob_escape.csv">B-230711-rescue_2-3BNC117-1 B-230711-rescue_2-3BNC117-3.0-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/antibody_escape/by_selection/B-230711-rescue_2-3BNC117-1/B-230711-rescue_2-3BNC117-5.0-1_prob_escape.csv">B-230711-rescue_2-3BNC117-1 B-230711-rescue_2-3BNC117-5.0-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/antibody_escape/by_selection/A-230906-rescue_5-3BNC117-1/A-230906-rescue_5-3BNC117-1.0-1_prob_escape.csv">A-230906-rescue_5-3BNC117-1 A-230906-rescue_5-3BNC117-1.0-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/antibody_escape/by_selection/A-230906-rescue_5-3BNC117-1/A-230906-rescue_5-3BNC117-3.0-1_prob_escape.csv">A-230906-rescue_5-3BNC117-1 A-230906-rescue_5-3BNC117-3.0-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/antibody_escape/by_selection/A-230906-rescue_5-3BNC117-1/A-230906-rescue_5-3BNC117-5.0-1_prob_escape.csv">A-230906-rescue_5-3BNC117-1 A-230906-rescue_5-3BNC117-5.0-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/antibody_escape/by_selection/A-230906-rescue_5-10-1074-1/A-230906-rescue_5-10-1074-2.5-1_prob_escape.csv">A-230906-rescue_5-10-1074-1 A-230906-rescue_5-10-1074-2.5-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/antibody_escape/by_selection/A-230906-rescue_5-10-1074-1/A-230906-rescue_5-10-1074-7.5-1_prob_escape.csv">A-230906-rescue_5-10-1074-1 A-230906-rescue_5-10-1074-7.5-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/antibody_escape/by_selection/A-230906-rescue_5-10-1074-1/A-230906-rescue_5-10-1074-15.0-1_prob_escape.csv">A-230906-rescue_5-10-1074-1 A-230906-rescue_5-10-1074-15.0-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/antibody_escape/by_selection/B-231011-rescue_6_ultra-3BNC117-1/B-231011-rescue_6_ultra-3BNC117-2.5-1_prob_escape.csv">B-231011-rescue_6_ultra-3BNC117-1 B-231011-rescue_6_ultra-3BNC117-2.5-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/antibody_escape/by_selection/B-231011-rescue_6_ultra-3BNC117-1/B-231011-rescue_6_ultra-3BNC117-5.0-1_prob_escape.csv">B-231011-rescue_6_ultra-3BNC117-1 B-231011-rescue_6_ultra-3BNC117-5.0-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/antibody_escape/by_selection/B-231011-rescue_6_ultra-3BNC117-1/B-231011-rescue_6_ultra-3BNC117-10.0-1_prob_escape.csv">B-231011-rescue_6_ultra-3BNC117-1 B-231011-rescue_6_ultra-3BNC117-10.0-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/antibody_escape/by_selection/B-231011-rescue_6_ultra-3BNC117-1/B-231011-rescue_6_ultra-3BNC117-20.0-1_prob_escape.csv">B-231011-rescue_6_ultra-3BNC117-1 B-231011-rescue_6_ultra-3BNC117-20.0-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/antibody_escape/by_selection/B-231011-rescue_6_ultra-10-1074-1/B-231011-rescue_6_ultra-10-1074-2.5-1_prob_escape.csv">B-231011-rescue_6_ultra-10-1074-1 B-231011-rescue_6_ultra-10-1074-2.5-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/antibody_escape/by_selection/B-231011-rescue_6_ultra-10-1074-1/B-231011-rescue_6_ultra-10-1074-5.0-1_prob_escape.csv">B-231011-rescue_6_ultra-10-1074-1 B-231011-rescue_6_ultra-10-1074-5.0-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/antibody_escape/by_selection/B-231011-rescue_6_ultra-10-1074-1/B-231011-rescue_6_ultra-10-1074-10.0-1_prob_escape.csv">B-231011-rescue_6_ultra-10-1074-1 B-231011-rescue_6_ultra-10-1074-10.0-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/antibody_escape/by_selection/B-231011-rescue_6_ultra-10-1074-1/B-231011-rescue_6_ultra-10-1074-20.0-1_prob_escape.csv">B-231011-rescue_6_ultra-10-1074-1 B-231011-rescue_6_ultra-10-1074-20.0-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/antibody_escape/by_selection/B-231011-rescue_6_ultra-10-1074-2/B-231011-rescue_6_ultra-10-1074-2.5-2_prob_escape.csv">B-231011-rescue_6_ultra-10-1074-2 B-231011-rescue_6_ultra-10-1074-2.5-2</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/antibody_escape/by_selection/B-231011-rescue_6_ultra-10-1074-2/B-231011-rescue_6_ultra-10-1074-5.0-2_prob_escape.csv">B-231011-rescue_6_ultra-10-1074-2 B-231011-rescue_6_ultra-10-1074-5.0-2</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/antibody_escape/by_selection/B-231011-rescue_6_ultra-10-1074-2/B-231011-rescue_6_ultra-10-1074-10.0-2_prob_escape.csv">B-231011-rescue_6_ultra-10-1074-2 B-231011-rescue_6_ultra-10-1074-10.0-2</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/antibody_escape/by_selection/B-231011-rescue_6_ultra-10-1074-2/B-231011-rescue_6_ultra-10-1074-20.0-2_prob_escape.csv">B-231011-rescue_6_ultra-10-1074-2 B-231011-rescue_6_ultra-10-1074-20.0-2</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/antibody_escape/by_selection/B-231018-rescue_6_poly-L-lysine-10-1074-1/B-231018-rescue_6_poly-L-lysine-10-1074-2.5-1_prob_escape.csv">B-231018-rescue_6_poly-L-lysine-10-1074-1 B-231018-rescue_6_poly-L-lysine-10-1074-2.5-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/antibody_escape/by_selection/B-231018-rescue_6_poly-L-lysine-10-1074-1/B-231018-rescue_6_poly-L-lysine-10-1074-5.0-1_prob_escape.csv">B-231018-rescue_6_poly-L-lysine-10-1074-1 B-231018-rescue_6_poly-L-lysine-10-1074-5.0-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/antibody_escape/by_selection/B-231018-rescue_6_poly-L-lysine-10-1074-1/B-231018-rescue_6_poly-L-lysine-10-1074-10.0-1_prob_escape.csv">B-231018-rescue_6_poly-L-lysine-10-1074-1 B-231018-rescue_6_poly-L-lysine-10-1074-10.0-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/antibody_escape/by_selection/B-231018-rescue_6_poly-L-lysine-10-1074-1/B-231018-rescue_6_poly-L-lysine-10-1074-20.0-1_prob_escape.csv">B-231018-rescue_6_poly-L-lysine-10-1074-1 B-231018-rescue_6_poly-L-lysine-10-1074-20.0-1</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/antibody_escape/by_selection/B-231018-rescue_6_poly-L-lysine-10-1074-2/B-231018-rescue_6_poly-L-lysine-10-1074-2.5-2_prob_escape.csv">B-231018-rescue_6_poly-L-lysine-10-1074-2 B-231018-rescue_6_poly-L-lysine-10-1074-2.5-2</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/antibody_escape/by_selection/B-231018-rescue_6_poly-L-lysine-10-1074-2/B-231018-rescue_6_poly-L-lysine-10-1074-5.0-2_prob_escape.csv">B-231018-rescue_6_poly-L-lysine-10-1074-2 B-231018-rescue_6_poly-L-lysine-10-1074-5.0-2</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/antibody_escape/by_selection/B-231018-rescue_6_poly-L-lysine-10-1074-2/B-231018-rescue_6_poly-L-lysine-10-1074-10.0-2_prob_escape.csv">B-231018-rescue_6_poly-L-lysine-10-1074-2 B-231018-rescue_6_poly-L-lysine-10-1074-10.0-2</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/antibody_escape/by_selection/B-231018-rescue_6_poly-L-lysine-10-1074-2/B-231018-rescue_6_poly-L-lysine-10-1074-20.0-2_prob_escape.csv">B-231018-rescue_6_poly-L-lysine-10-1074-2 B-231018-rescue_6_poly-L-lysine-10-1074-20.0-2</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>antibody escape CSVs (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/antibody_escape/averages/3BNC117_mut_effect.csv">3BNC117</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/antibody_escape/averages/10-1074_mut_effect.csv">10-1074</a></li>
+</ul></details>
+
+</li>
+</ul>
+<h2 id="integrated-summary-plots">Integrated summary plots</h2>
+<h4 id="all-antibodies">all antibodies</h4>
+<ul>
+<li><a href="htmls/all_antibodies_overlaid.html">Summary plot (escape overlaid)</a></li>
+<li><a href="htmls/all_antibodies_faceted.html">Summary plot (escape faceted)</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/summaries/all_antibodies.csv">CSV summarizing results</a></li>
+<li><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/results/summaries/all_antibodies_per_antibody_escape.csv">CSV summarizing per-antibody results</a></li>
+</ul>
+<h2 id="additional-analysis-specific-files">Additional analysis-specific files</h2>
+<h4 id="reference-to-sequential-site-numbering-map"><a href="https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/blob/main/data/site_numbering_map.csv">Reference to sequential site-numbering map</a></h4>
+<h4 id="average-functional-score-plots"><a href="notebooks/average_func_score_distributions.html">Average functional score plots</a></h4>
+<h4 id="comparison-of-escape-across-strains"><a href="notebooks/strain_escape_comparison.html">Comparison of escape across strains</a></h4>
+<h4 id="comparison-of-dms-escape-measurements-to-traditional-neutralization-assays"><a href="notebooks/validation_ICs.html">Comparison of DMS escape measurements to traditional neutralization assays</a></h4>

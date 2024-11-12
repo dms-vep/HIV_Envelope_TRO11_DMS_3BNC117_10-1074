@@ -1,0 +1,38 @@
+Conservation structure
+
+remove resn SO4
+remove chain H+D+J+L+E+K
+set_view (\
+     0.890904367,   -0.134976372,    0.433671296,\
+    -0.452319980,   -0.177075043,    0.874101043,\
+    -0.041190602,   -0.974898994,   -0.218808770,\
+    -0.000024438,   -0.000561684, -383.842437744,\
+   172.574035645,  174.220001221,  191.219757080,\
+  -105195.148437500, 105962.789062500,  -20.000000000 )
+spectrum b, red white, chain G+B
+spectrum b, red grey60, chain A+C
+spectrum b, red grey80, chain F+I
+show surface, chain G+A+F+B+C+I
+color paleyellow, resn NAG+BMA+MAN
+set light, [0, 0, -1]
+ray 1000,1000 
+png conservation.png 
+
+Functional effects structure
+
+remove resn SO4
+remove chain H+D+J+L+E+K
+set_view (\
+     0.890904367,   -0.134976372,    0.433671296,\
+    -0.452319980,   -0.177075043,    0.874101043,\
+    -0.041190602,   -0.974898994,   -0.218808770,\
+    -0.000024438,   -0.000561684, -383.842437744,\
+   172.574035645,  174.220001221,  191.219757080,\
+  -105195.148437500, 105962.789062500,  -20.000000000 )
+spectrum b, brown white, chain G+A+F+B+C+I
+show surface, chain G+A+F+B+C+I
+color paleyellow, resn NAG+BMA+MAN
+set light, [0, 0, -1]
+
+ray 1000,1000 
+png func_effects.png 

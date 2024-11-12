@@ -1,0 +1,3 @@
+library,run,fastq
+A,A_220708,/fh/fast/bloom_j/computational_notebooks/ceradfor/2022/HIV_Envelope_TRO11_DMS/data/PacBio_fastq/TRO11_library_A.fastq
+B,B_220708,/fh/fast/bloom_j/computational_notebooks/ceradfor/2022/HIV_Envelope_TRO11_DMS/data/PacBio_fastq/TRO11_library_B.fastq

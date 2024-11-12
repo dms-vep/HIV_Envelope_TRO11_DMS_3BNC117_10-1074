@@ -1,0 +1,866 @@
+sequential_site,sequential_wt,reference_site,reference_wt,region
+1,M,1,M,signal peptide
+2,R,2,R,signal peptide
+3,A,2a,-,signal peptide
+4,K,2b,-,signal peptide
+5,G,2c,-,signal peptide
+6,I,3,V,signal peptide
+7,R,4,K,signal peptide
+8,K,5,E,signal peptide
+9,N,6,K,signal peptide
+10,C,7,Y,signal peptide
+11,Q,8,Q,signal peptide
+12,H,9,H,signal peptide
+13,L,10,L,signal peptide
+14,W,15,W,signal peptide
+15,I,16,R,signal peptide
+16,W,17,W,signal peptide
+17,G,18,G,signal peptide
+18,T,19,T,signal peptide
+19,M,20,M,signal peptide
+20,L,21,L,signal peptide
+21,L,22,L,signal peptide
+22,G,23,G,signal peptide
+23,M,24,M,signal peptide
+24,L,25,L,signal peptide
+25,M,26,M,signal peptide
+26,I,27,I,signal peptide
+27,Y,28,C,signal peptide
+28,S,29,S,signal peptide
+29,A,30,A,signal peptide
+30,A,31,T,signal peptide
+31,E,32,E,gp120
+32,Q,32a,-,gp120
+33,G,32b,-,gp120
+34,Q,33,K,gp120
+35,L,34,L,gp120
+36,W,35,W,gp120
+37,V,36,V,gp120
+38,T,37,T,gp120
+39,V,38,V,gp120
+40,Y,39,Y,gp120
+41,Y,40,Y,gp120
+42,G,41,G,gp120
+43,V,42,V,gp120
+44,P,43,P,gp120
+45,V,44,V,gp120
+46,W,45,W,gp120
+47,K,46,K,gp120
+48,D,47,E,gp120
+49,A,48,A,gp120
+50,S,49,T,gp120
+51,T,50,T,gp120
+52,T,51,T,gp120
+53,L,52,L,gp120
+54,F,53,F,gp120
+55,C,54,C,gp120
+56,A,55,A,gp120
+57,S,56,S,gp120
+58,D,57,D,gp120
+59,A,58,A,gp120
+60,K,59,K,gp120
+61,A,60,A,gp120
+62,Y,61,Y,gp120
+63,D,62,D,gp120
+64,T,63,T,gp120
+65,E,64,E,gp120
+66,V,65,V,gp120
+67,H,66,H,gp120
+68,N,67,N,gp120
+69,V,68,V,gp120
+70,W,69,W,gp120
+71,A,70,A,gp120
+72,T,71,T,gp120
+73,H,72,H,gp120
+74,A,73,A,gp120
+75,C,74,C,gp120
+76,V,75,V,gp120
+77,P,76,P,gp120
+78,T,77,T,gp120
+79,D,78,D,gp120
+80,P,79,P,gp120
+81,N,80,N,gp120
+82,P,81,P,gp120
+83,Q,82,Q,gp120
+84,E,83,E,gp120
+85,V,84,V,gp120
+86,V,85,V,gp120
+87,L,86,L,gp120
+88,G,87,V,gp120
+89,N,88,N,gp120
+90,V,89,V,gp120
+91,T,90,T,gp120
+92,E,91,E,gp120
+93,N,92,N,gp120
+94,F,93,F,gp120
+95,N,94,N,gp120
+96,M,95,M,gp120
+97,W,96,W,gp120
+98,K,97,K,gp120
+99,N,98,N,gp120
+100,N,99,D,gp120
+101,M,100,M,gp120
+102,V,101,V,gp120
+103,D,102,E,gp120
+104,Q,103,Q,gp120
+105,M,104,M,gp120
+106,H,105,H,gp120
+107,E,106,E,gp120
+108,D,107,D,gp120
+109,I,108,I,gp120
+110,I,109,I,gp120
+111,S,110,S,gp120
+112,L,111,L,gp120
+113,W,112,W,gp120
+114,D,113,D,gp120
+115,Q,114,Q,gp120
+116,S,115,S,gp120
+117,L,116,L,gp120
+118,K,117,K,gp120
+119,P,118,P,gp120
+120,C,119,C,gp120
+121,V,120,V,gp120
+122,K,121,K,gp120
+123,L,122,L,gp120
+124,T,123,T,gp120
+125,P,124,P,gp120
+126,L,125,L,gp120
+127,C,126,C,gp120
+128,V,127,V,gp120
+129,T,128,S,gp120
+130,L,129,L,gp120
+131,N,130,K,gp120
+132,C,131,C,V1 loop
+133,T,132,T,V1 loop
+134,D,133,D,V1 loop
+135,N,134,L,V1 loop
+136,I,135,K,V1 loop
+137,T,136,N,V1 loop
+138,N,137,D,V1 loop
+139,T,138,T,V1 loop
+140,N,139,N,V1 loop
+141,T,140,T,V1 loop
+142,N,141,N,V1 loop
+143,S,142,S,V1 loop
+144,S,143,S,V1 loop
+145,K,144,S,V1 loop
+146,N,145,G,V1 loop
+147,S,146,R,V1 loop
+148,S,147,M,V1 loop
+149,T,148,I,V1 loop
+150,H,149,M,V1 loop
+151,S,150,E,V1 loop
+152,Y,150a,-,V1 loop
+153,N,150b,-,V1 loop
+154,N,150c,-,V1 loop
+155,S,150d,-,V1 loop
+156,L,150e,-,V1 loop
+157,E,151,K,V1 loop
+158,G,152,G,V1 loop
+159,E,153,E,V1 loop
+160,M,154,I,V1 loop
+161,K,155,K,V1 loop
+162,N,156,N,V1 loop
+163,C,157,C,V2 loop
+164,S,158,S,V2 loop
+165,F,159,F,V2 loop
+166,N,160,N,V2 loop
+167,I,161,I,V2 loop
+168,T,162,S,V2 loop
+169,A,163,T,V2 loop
+170,G,164,S,V2 loop
+171,I,165,I,V2 loop
+172,R,166,R,V2 loop
+173,D,167,G,V2 loop
+174,K,168,K,V2 loop
+175,V,169,V,V2 loop
+176,K,170,Q,V2 loop
+177,K,171,K,V2 loop
+178,E,172,E,V2 loop
+179,Y,173,Y,V2 loop
+180,A,174,A,V2 loop
+181,L,175,F,V2 loop
+182,F,176,F,V2 loop
+183,Y,177,Y,V2 loop
+184,K,178,K,V2 loop
+185,L,179,L,V2 loop
+186,D,180,D,V2 loop
+187,V,181,I,V2 loop
+188,V,182,I,V2 loop
+189,P,183,P,V2 loop
+190,I,184,I,V2 loop
+191,E,184a,-,V2 loop
+192,E,184b,-,V2 loop
+193,D,185,D,V2 loop
+194,K,186,N,V2 loop
+195,D,187,D,V2 loop
+196,T,188,T,V2 loop
+197,N,188a,-,V2 loop
+198,K,188b,-,V2 loop
+199,T,189,T,V2 loop
+200,T,190,S,V2 loop
+201,Y,191,Y,V2 loop
+202,R,192,K,V2 loop
+203,L,193,L,V2 loop
+204,R,194,T,V2 loop
+205,S,195,S,V2 loop
+206,C,196,C,V2 loop
+207,N,197,N,gp120
+208,T,198,T,gp120
+209,S,199,S,gp120
+210,V,200,V,gp120
+211,I,201,I,gp120
+212,T,202,T,gp120
+213,Q,203,Q,gp120
+214,A,204,A,gp120
+215,C,205,C,gp120
+216,P,206,P,gp120
+217,K,207,K,gp120
+218,V,208,V,gp120
+219,T,209,S,gp120
+220,F,210,F,gp120
+221,E,211,E,gp120
+222,P,212,P,gp120
+223,I,213,I,gp120
+224,P,214,P,gp120
+225,I,215,I,gp120
+226,H,216,H,gp120
+227,Y,217,Y,gp120
+228,C,218,C,gp120
+229,A,219,A,gp120
+230,P,220,P,gp120
+231,A,221,A,gp120
+232,G,222,G,gp120
+233,F,223,F,gp120
+234,A,224,A,gp120
+235,I,225,I,gp120
+236,L,226,L,gp120
+237,K,227,K,gp120
+238,C,228,C,gp120
+239,N,229,N,gp120
+240,D,230,N,gp120
+241,K,231,K,gp120
+242,K,232,T,gp120
+243,F,233,F,gp120
+244,N,234,N,gp120
+245,G,235,G,gp120
+246,T,236,T,gp120
+247,G,237,G,gp120
+248,P,238,P,gp120
+249,C,239,C,gp120
+250,T,240,T,gp120
+251,N,241,N,gp120
+252,V,242,V,gp120
+253,S,243,S,gp120
+254,T,244,T,gp120
+255,V,245,V,gp120
+256,Q,246,Q,gp120
+257,C,247,C,gp120
+258,T,248,T,gp120
+259,H,249,H,gp120
+260,G,250,G,gp120
+261,I,251,I,gp120
+262,R,252,R,gp120
+263,P,253,P,gp120
+264,V,254,V,gp120
+265,V,255,V,gp120
+266,S,256,S,gp120
+267,T,257,T,gp120
+268,Q,258,Q,gp120
+269,L,259,L,gp120
+270,L,260,L,gp120
+271,L,261,L,gp120
+272,N,262,N,gp120
+273,G,263,G,gp120
+274,S,264,S,gp120
+275,L,265,L,gp120
+276,A,266,A,gp120
+277,E,267,E,gp120
+278,E,268,E,gp120
+279,E,269,E,gp120
+280,V,270,V,gp120
+281,V,271,V,gp120
+282,I,272,I,gp120
+283,R,273,R,gp120
+284,S,274,S,gp120
+285,E,275,V,Loop D
+286,N,276,N,Loop D
+287,F,277,F,Loop D
+288,T,278,T,Loop D
+289,N,279,D,Loop D
+290,N,280,N,Loop D
+291,A,281,A,Loop D
+292,K,282,K,Loop D
+293,T,283,T,Loop D
+294,I,284,I,gp120
+295,I,285,I,gp120
+296,V,286,V,gp120
+297,Q,287,Q,gp120
+298,L,288,L,gp120
+299,N,289,N,gp120
+300,E,290,T,gp120
+301,S,291,S,gp120
+302,I,292,V,gp120
+303,A,293,E,gp120
+304,I,294,I,gp120
+305,N,295,N,gp120
+306,C,296,C,V3 loop
+307,T,297,T,V3 loop
+308,R,298,R,V3 loop
+309,P,299,P,V3 loop
+310,N,300,N,V3 loop
+311,N,301,N,V3 loop
+312,N,302,N,V3 loop
+313,T,303,T,V3 loop
+314,R,304,R,V3 loop
+315,R,305,K,V3 loop
+316,S,306,R,V3 loop
+317,I,307,I,V3 loop
+318,H,308,R,V3 loop
+319,I,309,I,V3 loop
+320,G,312,G,V3 loop
+321,P,313,P,V3 loop
+322,G,314,G,V3 loop
+323,R,315,R,V3 loop
+324,A,316,A,V3 loop
+325,F,317,F,V3 loop
+326,Y,318,V,V3 loop
+327,A,319,T,V3 loop
+328,T,320,I,V3 loop
+329,G,321,G,V3 loop
+330,D,322,K,V3 loop
+331,I,322a,-,V3 loop
+332,I,323,I,V3 loop
+333,G,324,G,V3 loop
+334,D,325,N,V3 loop
+335,I,326,M,V3 loop
+336,R,327,R,V3 loop
+337,Q,328,Q,V3 loop
+338,A,329,A,V3 loop
+339,H,330,H,V3 loop
+340,C,331,C,V3 loop
+341,N,332,N,gp120
+342,I,333,I,gp120
+343,S,334,S,gp120
+344,R,335,R,gp120
+345,T,336,A,gp120
+346,E,337,K,gp120
+347,W,338,W,gp120
+348,N,339,N,gp120
+349,S,340,N,gp120
+350,T,341,T,gp120
+351,L,342,L,gp120
+352,R,343,K,gp120
+353,Q,344,Q,gp120
+354,I,345,I,gp120
+355,V,346,A,gp120
+356,T,347,S,gp120
+357,K,348,K,gp120
+358,L,349,L,gp120
+359,R,350,R,gp120
+360,E,351,E,gp120
+361,Q,352,Q,gp120
+362,L,353,F,gp120
+363,G,354,G,gp120
+364,D,355,N,gp120
+365,P,355a,-,gp120
+366,N,356,N,gp120
+367,K,357,K,gp120
+368,T,358,T,gp120
+369,I,359,I,gp120
+370,I,360,I,gp120
+371,F,361,F,gp120
+372,N,362,K,gp120
+373,Q,363,Q,gp120
+374,S,364,S,CD4 binding loop
+375,S,365,S,CD4 binding loop
+376,G,366,G,CD4 binding loop
+377,G,367,G,CD4 binding loop
+378,D,368,D,CD4 binding loop
+379,T,369,P,CD4 binding loop
+380,E,370,E,CD4 binding loop
+381,I,371,I,CD4 binding loop
+382,T,372,V,CD4 binding loop
+383,M,373,T,CD4 binding loop
+384,H,374,H,CD4 binding loop
+385,S,375,S,gp120
+386,F,376,F,gp120
+387,N,377,N,gp120
+388,C,378,C,gp120
+389,G,379,G,gp120
+390,G,380,G,gp120
+391,E,381,E,gp120
+392,F,382,F,gp120
+393,F,383,F,gp120
+394,Y,384,Y,gp120
+395,C,385,C,V4 loop
+396,N,386,N,V4 loop
+397,T,387,S,V4 loop
+398,T,388,T,V4 loop
+399,K,389,Q,V4 loop
+400,L,390,L,V4 loop
+401,F,391,F,V4 loop
+402,N,392,N,V4 loop
+403,S,393,S,V4 loop
+404,T,394,T,V4 loop
+405,W,395,W,V4 loop
+406,N,403,E,V4 loop
+407,G,404,G,V4 loop
+408,N,405,S,V4 loop
+409,N,406,N,V4 loop
+410,T,407,N,V4 loop
+411,T,408,T,V4 loop
+412,E,409,E,V4 loop
+413,S,410,G,V4 loop
+414,D,411,S,V4 loop
+415,S,412,D,V4 loop
+416,T,413,T,V4 loop
+417,G,413a,-,V4 loop
+418,E,413b,-,V4 loop
+419,N,413c,-,V4 loop
+420,I,414,I,V4 loop
+421,T,415,T,V4 loop
+422,L,416,L,V4 loop
+423,P,417,P,V4 loop
+424,C,418,C,V4 loop
+425,R,419,R,gp120
+426,I,420,I,gp120
+427,K,421,K,gp120
+428,Q,422,Q,gp120
+429,I,423,I,gp120
+430,I,424,I,gp120
+431,N,425,N,gp120
+432,L,426,M,gp120
+433,W,427,W,gp120
+434,Q,428,Q,gp120
+435,E,429,K,gp120
+436,V,430,V,gp120
+437,G,431,G,gp120
+438,K,432,K,gp120
+439,A,433,A,gp120
+440,M,434,M,gp120
+441,Y,435,Y,gp120
+442,A,436,A,gp120
+443,P,437,P,gp120
+444,P,438,P,gp120
+445,I,439,I,gp120
+446,K,440,S,gp120
+447,G,441,G,gp120
+448,Q,442,Q,gp120
+449,I,443,I,gp120
+450,S,444,R,gp120
+451,C,445,C,gp120
+452,S,446,S,gp120
+453,S,447,S,gp120
+454,N,448,N,gp120
+455,I,449,I,gp120
+456,T,450,T,gp120
+457,G,451,G,gp120
+458,L,452,L,gp120
+459,L,453,L,gp120
+460,L,454,L,gp120
+461,T,455,T,gp120
+462,R,456,R,gp120
+463,D,457,D,gp120
+464,G,458,G,gp120
+465,G,459,G,gp120
+466,N,460,N,V5 loop
+467,N,461,S,V5 loop
+468,N,462,N,V5 loop
+469,S,463,N,V5 loop
+470,S,464,E,V5 loop
+471,G,465,S,V5 loop
+472,P,465a,-,V5 loop
+473,E,466,E,V5 loop
+474,T,467,I,V5 loop
+475,F,468,F,V5 loop
+476,R,469,R,V5 loop
+477,P,470,P,V5 loop
+478,G,471,G,gp120
+479,G,472,G,gp120
+480,G,473,G,gp120
+481,N,474,D,gp120
+482,M,475,M,gp120
+483,K,476,R,gp120
+484,D,477,D,gp120
+485,N,478,N,gp120
+486,W,479,W,gp120
+487,R,480,R,gp120
+488,S,481,S,gp120
+489,E,482,E,gp120
+490,L,483,L,gp120
+491,Y,484,Y,gp120
+492,K,485,K,gp120
+493,Y,486,Y,gp120
+494,K,487,K,gp120
+495,V,488,V,gp120
+496,I,489,V,gp120
+497,K,490,K,gp120
+498,I,491,I,gp120
+499,E,492,E,gp120
+500,P,493,P,gp120
+501,L,494,L,gp120
+502,G,495,G,gp120
+503,V,496,V,gp120
+504,A,497,A,gp120
+505,P,498,P,gp120
+506,T,499,T,gp120
+507,R,500,K,gp120
+508,A,501,A,gp120
+509,K,502,K,gp120
+510,R,503,R,gp120
+511,R,504,R,gp120
+512,V,505,V,gp120
+513,V,506,V,gp120
+514,Q,507,Q,gp120
+515,R,508,R,gp120
+516,E,509,E,gp120
+517,K,510,K,gp120
+518,R,511,R,gp120
+519,A,512,A,fusion peptide
+520,V,513,V,fusion peptide
+521,G,514,G,fusion peptide
+522,T,514a,-,fusion peptide
+523,L,515,I,fusion peptide
+524,G,516,G,fusion peptide
+525,A,517,A,fusion peptide
+526,M,518,L,fusion peptide
+527,F,519,F,fusion peptide
+528,L,520,L,fusion peptide
+529,G,521,G,fusion peptide
+530,F,522,F,fusion peptide
+531,L,523,L,fusion peptide
+532,G,524,G,fusion peptide
+533,A,525,A,fusion peptide
+534,A,526,A,fusion peptide
+535,G,527,G,fusion peptide
+536,S,528,S,gp41
+537,T,529,T,gp41
+538,M,530,M,gp41
+539,G,531,G,gp41
+540,A,532,A,gp41
+541,A,533,A,gp41
+542,S,534,S,gp41
+543,V,535,M,N-helix
+544,T,536,T,N-helix
+545,L,537,L,N-helix
+546,T,538,T,N-helix
+547,V,539,V,N-helix
+548,Q,540,Q,N-helix
+549,A,541,A,N-helix
+550,R,542,R,N-helix
+551,L,543,Q,N-helix
+552,L,544,L,N-helix
+553,L,545,L,N-helix
+554,S,546,S,N-helix
+555,G,547,G,N-helix
+556,I,548,I,N-helix
+557,V,549,V,N-helix
+558,Q,550,Q,N-helix
+559,Q,551,Q,N-helix
+560,Q,552,Q,N-helix
+561,N,553,N,N-helix
+562,N,554,N,N-helix
+563,L,555,L,N-helix
+564,L,556,L,N-helix
+565,R,557,R,N-helix
+566,A,558,A,N-helix
+567,I,559,I,N-helix
+568,E,560,E,N-helix
+569,A,561,A,N-helix
+570,Q,562,Q,N-helix
+571,Q,563,Q,N-helix
+572,H,564,H,N-helix
+573,M,565,L,N-helix
+574,L,566,L,N-helix
+575,Q,567,Q,N-helix
+576,L,568,L,N-helix
+577,T,569,T,N-helix
+578,V,570,V,N-helix
+579,W,571,W,N-helix
+580,G,572,G,N-helix
+581,I,573,I,N-helix
+582,K,574,K,N-helix
+583,Q,575,Q,N-helix
+584,L,576,L,N-helix
+585,Q,577,Q,N-helix
+586,A,578,A,N-helix
+587,R,579,R,N-helix
+588,V,580,I,N-helix
+589,L,581,L,N-helix
+590,A,582,A,N-helix
+591,V,583,V,N-helix
+592,E,584,E,N-helix
+593,R,585,R,N-helix
+594,Y,586,Y,N-helix
+595,L,587,L,N-helix
+596,R,588,K,N-helix
+597,D,589,D,N-helix
+598,Q,590,Q,N-helix
+599,Q,591,Q,N-helix
+600,L,592,L,N-helix
+601,L,593,L,N-helix
+602,G,594,G,N-helix
+603,I,595,I,N-helix
+604,W,596,W,gp41
+605,G,597,G,gp41
+606,C,598,C,gp41
+607,S,599,S,gp41
+608,G,600,G,gp41
+609,K,601,K,gp41
+610,L,602,L,gp41
+611,I,603,I,gp41
+612,C,604,C,gp41
+613,T,605,T,gp41
+614,T,606,T,gp41
+615,N,607,A,gp41
+616,V,608,V,gp41
+617,P,609,P,gp41
+618,W,610,W,gp41
+619,N,611,N,gp41
+620,A,612,A,gp41
+621,S,613,S,gp41
+622,W,614,W,gp41
+623,S,615,S,gp41
+624,N,616,N,gp41
+625,K,617,K,gp41
+626,S,618,S,C-helix
+627,L,619,L,C-helix
+628,N,620,E,C-helix
+629,N,621,Q,C-helix
+630,I,622,I,C-helix
+631,W,623,W,C-helix
+632,E,624,N,C-helix
+633,N,625,H,C-helix
+634,M,626,T,C-helix
+635,T,627,T,C-helix
+636,W,628,W,C-helix
+637,M,629,M,C-helix
+638,E,630,E,C-helix
+639,W,631,W,C-helix
+640,E,632,D,C-helix
+641,R,633,R,C-helix
+642,E,634,E,C-helix
+643,I,635,I,C-helix
+644,D,636,N,C-helix
+645,N,637,N,C-helix
+646,Y,638,Y,C-helix
+647,T,639,T,C-helix
+648,D,640,S,C-helix
+649,L,641,L,C-helix
+650,I,642,I,C-helix
+651,Y,643,H,C-helix
+652,I,644,S,C-helix
+653,L,645,L,C-helix
+654,L,646,I,C-helix
+655,E,647,E,C-helix
+656,K,648,E,C-helix
+657,S,649,S,C-helix
+658,Q,650,Q,C-helix
+659,I,651,N,C-helix
+660,Q,652,Q,C-helix
+661,Q,653,Q,C-helix
+662,E,654,E,C-helix
+663,K,655,K,C-helix
+664,N,656,N,C-helix
+665,E,657,E,C-helix
+666,Q,658,Q,C-helix
+667,E,659,E,C-helix
+668,L,660,L,C-helix
+669,L,661,L,C-helix
+670,E,662,E,C-helix
+671,L,663,L,C-helix
+672,D,664,D,C-helix
+673,S,665,K,C-helix
+674,W,666,W,gp41
+675,A,667,A,gp41
+676,S,668,S,gp41
+677,L,669,L,gp41
+678,W,670,W,gp41
+679,N,671,N,gp41
+680,W,672,W,gp41
+681,F,673,F,gp41
+682,D,674,N,gp41
+683,I,675,I,gp41
+684,S,676,T,gp41
+685,K,677,N,gp41
+686,W,678,W,gp41
+687,L,679,L,gp41
+688,W,680,W,gp41
+689,Y,681,Y,gp41
+690,I,682,I,gp41
+691,K,683,K,gp41
+692,I,684,L,gp41
+693,F,685,F,transmembrane domain
+694,I,686,I,transmembrane domain
+695,M,687,M,transmembrane domain
+696,I,688,I,transmembrane domain
+697,V,689,V,transmembrane domain
+698,G,690,G,transmembrane domain
+699,G,691,G,transmembrane domain
+700,L,692,L,transmembrane domain
+701,V,693,V,transmembrane domain
+702,G,694,G,transmembrane domain
+703,L,695,L,transmembrane domain
+704,R,696,R,transmembrane domain
+705,I,697,I,transmembrane domain
+706,V,698,V,transmembrane domain
+707,F,699,F,transmembrane domain
+708,A,700,A,Cytoplasmic tail
+709,V,701,V,Cytoplasmic tail
+710,L,702,L,Cytoplasmic tail
+711,S,703,S,Cytoplasmic tail
+712,I,704,I,Cytoplasmic tail
+713,A,705,V,Cytoplasmic tail
+714,N,706,N,Cytoplasmic tail
+715,R,707,R,Cytoplasmic tail
+716,V,708,V,Cytoplasmic tail
+717,R,709,R,Cytoplasmic tail
+718,Q,710,Q,Cytoplasmic tail
+719,G,711,G,Cytoplasmic tail
+720,Y,712,Y,Cytoplasmic tail
+721,S,713,S,Cytoplasmic tail
+722,P,714,P,Cytoplasmic tail
+723,L,715,L,Cytoplasmic tail
+724,S,716,S,Cytoplasmic tail
+725,F,717,F,Cytoplasmic tail
+726,Q,718,Q,Cytoplasmic tail
+727,T,719,T,Cytoplasmic tail
+728,R,720,H,Cytoplasmic tail
+729,L,721,L,Cytoplasmic tail
+730,P,722,P,Cytoplasmic tail
+731,T,723,T,Cytoplasmic tail
+732,P,724,P,Cytoplasmic tail
+733,R,725,R,Cytoplasmic tail
+734,G,726,G,Cytoplasmic tail
+735,P,727,P,Cytoplasmic tail
+736,D,728,D,Cytoplasmic tail
+737,R,729,R,Cytoplasmic tail
+738,P,730,P,Cytoplasmic tail
+739,E,731,E,Cytoplasmic tail
+740,G,732,G,Cytoplasmic tail
+741,I,733,I,Cytoplasmic tail
+742,E,734,E,Cytoplasmic tail
+743,K,735,E,Cytoplasmic tail
+744,E,736,E,Cytoplasmic tail
+745,G,737,G,Cytoplasmic tail
+746,G,738,G,Cytoplasmic tail
+747,G,739,E,Cytoplasmic tail
+748,R,740,R,Cytoplasmic tail
+749,D,741,D,Cytoplasmic tail
+750,R,742,R,Cytoplasmic tail
+751,D,743,D,Cytoplasmic tail
+752,G,744,R,Cytoplasmic tail
+753,S,745,S,Cytoplasmic tail
+754,R,746,I,Cytoplasmic tail
+755,P,747,R,Cytoplasmic tail
+756,L,748,L,Cytoplasmic tail
+757,V,749,V,Cytoplasmic tail
+758,H,750,N,Cytoplasmic tail
+759,G,751,G,Cytoplasmic tail
+760,L,752,S,Cytoplasmic tail
+761,L,753,L,Cytoplasmic tail
+762,A,754,A,Cytoplasmic tail
+763,L,755,L,Cytoplasmic tail
+764,I,756,I,Cytoplasmic tail
+765,W,757,W,Cytoplasmic tail
+766,D,758,D,Cytoplasmic tail
+767,D,759,D,Cytoplasmic tail
+768,L,760,L,Cytoplasmic tail
+769,R,761,R,Cytoplasmic tail
+770,S,762,S,Cytoplasmic tail
+771,L,763,L,Cytoplasmic tail
+772,C,764,C,Cytoplasmic tail
+773,L,765,L,Cytoplasmic tail
+774,F,766,F,Cytoplasmic tail
+775,S,767,S,Cytoplasmic tail
+776,Y,768,Y,Cytoplasmic tail
+777,H,769,H,Cytoplasmic tail
+778,R,770,R,Cytoplasmic tail
+779,L,771,L,Cytoplasmic tail
+780,R,772,R,Cytoplasmic tail
+781,D,773,D,Cytoplasmic tail
+782,L,774,L,Cytoplasmic tail
+783,L,775,L,Cytoplasmic tail
+784,L,776,L,Cytoplasmic tail
+785,I,777,I,Cytoplasmic tail
+786,V,778,V,Cytoplasmic tail
+787,T,779,T,Cytoplasmic tail
+788,R,780,R,Cytoplasmic tail
+789,T,781,I,Cytoplasmic tail
+790,V,782,V,Cytoplasmic tail
+791,E,783,E,Cytoplasmic tail
+792,L,784,L,Cytoplasmic tail
+793,L,785,L,Cytoplasmic tail
+794,G,786,G,Cytoplasmic tail
+795,R,787,R,Cytoplasmic tail
+796,R,788,R,Cytoplasmic tail
+797,G,789,G,Cytoplasmic tail
+798,W,790,W,Cytoplasmic tail
+799,E,791,E,Cytoplasmic tail
+800,L,792,A,Cytoplasmic tail
+801,L,793,L,Cytoplasmic tail
+802,K,794,K,Cytoplasmic tail
+803,Y,795,Y,Cytoplasmic tail
+804,W,796,W,Cytoplasmic tail
+805,W,797,W,Cytoplasmic tail
+806,N,798,N,Cytoplasmic tail
+807,L,799,L,Cytoplasmic tail
+808,L,800,L,Cytoplasmic tail
+809,Q,801,Q,Cytoplasmic tail
+810,Y,802,Y,Cytoplasmic tail
+811,W,803,W,Cytoplasmic tail
+812,S,804,S,Cytoplasmic tail
+813,Q,805,Q,Cytoplasmic tail
+814,E,806,E,Cytoplasmic tail
+815,L,807,L,Cytoplasmic tail
+816,K,808,K,Cytoplasmic tail
+817,N,809,N,Cytoplasmic tail
+818,S,810,S,Cytoplasmic tail
+819,A,811,A,Cytoplasmic tail
+820,V,812,V,Cytoplasmic tail
+821,S,813,S,Cytoplasmic tail
+822,L,814,L,Cytoplasmic tail
+823,L,815,L,Cytoplasmic tail
+824,N,816,N,Cytoplasmic tail
+825,T,817,A,Cytoplasmic tail
+826,T,818,T,Cytoplasmic tail
+827,A,819,A,Cytoplasmic tail
+828,I,820,I,Cytoplasmic tail
+829,A,821,A,Cytoplasmic tail
+830,V,822,V,Cytoplasmic tail
+831,A,823,A,Cytoplasmic tail
+832,E,824,E,Cytoplasmic tail
+833,G,825,G,Cytoplasmic tail
+834,T,826,T,Cytoplasmic tail
+835,D,827,D,Cytoplasmic tail
+836,R,828,R,Cytoplasmic tail
+837,V,829,V,Cytoplasmic tail
+838,I,830,I,Cytoplasmic tail
+839,E,831,E,Cytoplasmic tail
+840,V,832,V,Cytoplasmic tail
+841,V,833,V,Cytoplasmic tail
+842,Q,834,Q,Cytoplasmic tail
+843,R,835,G,Cytoplasmic tail
+844,A,836,A,Cytoplasmic tail
+845,F,837,C,Cytoplasmic tail
+846,R,838,R,Cytoplasmic tail
+847,A,839,A,Cytoplasmic tail
+848,I,840,I,Cytoplasmic tail
+849,L,841,R,Cytoplasmic tail
+850,H,842,H,Cytoplasmic tail
+851,I,843,I,Cytoplasmic tail
+852,P,844,P,Cytoplasmic tail
+853,A,845,R,Cytoplasmic tail
+854,R,846,R,Cytoplasmic tail
+855,I,847,I,Cytoplasmic tail
+856,R,848,R,Cytoplasmic tail
+857,Q,849,Q,Cytoplasmic tail
+858,G,850,G,Cytoplasmic tail
+859,L,851,L,Cytoplasmic tail
+860,E,852,E,Cytoplasmic tail
+861,R,853,R,Cytoplasmic tail
+862,A,854,I,Cytoplasmic tail
+863,L,855,L,Cytoplasmic tail
+864,L,856,L,Cytoplasmic tail
+865,*,856a,-,Cytoplasmic tail
