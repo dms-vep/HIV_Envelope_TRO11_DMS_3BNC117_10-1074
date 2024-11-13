@@ -1,6 +1,6 @@
 # Deep mutational scanning using HIV Envelope strain TRO11 to identify mutations that escape neutralization by antibodies 3BNC117 and 10-1074
 
-For documentation of the analysis, see [https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/](https://github.com/dms-vep/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/).
+For documentation of the analysis, see [https://dms-vep.github.io/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/](https://dms-vep.github.io/HIV_Envelope_TRO11_DMS_3BNC117_10-1074/).
 
 ## Organization of this repo
 

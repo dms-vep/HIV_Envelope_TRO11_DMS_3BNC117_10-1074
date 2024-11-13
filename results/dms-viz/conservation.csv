@@ -1,0 +1,836 @@
+,sequential_site_x,sequential_wt_x,reference_site,reference_wt_x,region_x,sequential_site_y,sequential_wt_y,reference_wt_y,region_y,conserved,wildtype,mutant
+0,1,M,1,M,signal peptide,1,M,M,gp120,1,M,A
+1,2,R,2,R,signal peptide,2,R,R,gp120,1,R,A
+2,6,I,3,V,signal peptide,3,V,V,gp120,0,I,A
+3,7,R,4,K,signal peptide,4,K,K,gp120,0,R,A
+4,8,K,5,E,signal peptide,8,M,E,gp120,0,K,A
+5,9,N,6,K,signal peptide,9,N,K,gp120,1,N,A
+6,10,C,7,Y,signal peptide,10,S,Y,gp120,0,C,A
+7,11,Q,8,Q,signal peptide,11,Q,Q,gp120,1,Q,A
+8,12,H,9,H,signal peptide,12,H,H,gp120,1,H,A
+9,13,L,10,L,signal peptide,13,L,L,gp120,1,L,A
+10,14,W,15,W,signal peptide,14,L,W,gp120,0,W,A
+11,15,I,16,R,signal peptide,15,R,R,gp120,0,I,A
+12,16,W,17,W,signal peptide,16,W,W,gp120,1,W,A
+13,17,G,18,G,signal peptide,17,G,G,gp120,1,G,A
+14,18,T,19,T,signal peptide,18,I,T,gp120,0,T,A
+15,19,M,20,M,signal peptide,19,M,M,gp120,1,M,A
+16,20,L,21,L,signal peptide,20,I,L,gp120,0,L,A
+17,21,L,22,L,signal peptide,21,L,L,gp120,1,L,A
+18,22,G,23,G,signal peptide,22,G,G,gp120,1,G,A
+19,23,M,24,M,signal peptide,23,M,M,gp120,1,M,A
+20,24,L,25,L,signal peptide,24,I,L,gp120,0,L,A
+21,25,M,26,M,signal peptide,25,M,M,gp120,1,M,A
+22,26,I,27,I,signal peptide,26,I,I,gp120,1,I,A
+23,27,Y,28,C,signal peptide,27,C,C,gp120,0,Y,A
+24,28,S,29,S,signal peptide,28,S,S,gp120,1,S,A
+25,29,A,30,A,signal peptide,29,V,A,gp120,0,A,A
+26,30,A,31,T,signal peptide,30,A,T,gp120,1,A,A
+27,31,E,32,E,gp120,31,G,E,gp120,0,E,A
+28,34,Q,33,K,gp120,32,N,K,gp120,0,Q,A
+29,35,L,34,L,gp120,33,L,L,gp120,1,L,A
+30,36,W,35,W,gp120,34,W,W,gp120,1,W,A
+31,37,V,36,V,gp120,35,V,V,gp120,1,V,A
+32,38,T,37,T,gp120,36,T,T,gp120,1,T,A
+33,39,V,38,V,gp120,37,V,V,gp120,1,V,A
+34,40,Y,39,Y,gp120,38,Y,Y,gp120,1,Y,A
+35,41,Y,40,Y,gp120,39,Y,Y,gp120,1,Y,A
+36,42,G,41,G,gp120,40,G,G,gp120,1,G,A
+37,43,V,42,V,gp120,41,V,V,gp120,1,V,A
+38,44,P,43,P,gp120,42,P,P,gp120,1,P,A
+39,45,V,44,V,gp120,43,V,V,gp120,1,V,A
+40,46,W,45,W,gp120,44,W,W,gp120,1,W,A
+41,47,K,46,K,gp120,45,K,K,gp120,1,K,A
+42,48,D,47,E,gp120,46,D,E,gp120,1,D,A
+43,49,A,48,A,gp120,47,A,A,gp120,1,A,A
+44,50,S,49,T,gp120,48,E,T,gp120,0,S,A
+45,51,T,50,T,gp120,49,T,T,gp120,1,T,A
+46,52,T,51,T,gp120,50,T,T,gp120,1,T,A
+47,53,L,52,L,gp120,51,L,L,gp120,1,L,A
+48,54,F,53,F,gp120,52,F,F,gp120,1,F,A
+49,55,C,54,C,gp120,53,C,C,gp120,1,C,A
+50,56,A,55,A,gp120,54,A,A,gp120,1,A,A
+51,57,S,56,S,gp120,55,S,S,gp120,1,S,A
+52,58,D,57,D,gp120,56,D,D,gp120,1,D,A
+53,59,A,58,A,gp120,57,A,A,gp120,1,A,A
+54,60,K,59,K,gp120,58,K,K,gp120,1,K,A
+55,61,A,60,A,gp120,59,A,A,gp120,1,A,A
+56,62,Y,61,Y,gp120,60,Y,Y,gp120,1,Y,A
+57,63,D,62,D,gp120,61,D,D,gp120,1,D,A
+58,64,T,63,T,gp120,62,A,T,gp120,0,T,A
+59,65,E,64,E,gp120,63,E,E,gp120,1,E,A
+60,66,V,65,V,gp120,64,V,V,gp120,1,V,A
+61,67,H,66,H,gp120,65,H,H,gp120,1,H,A
+62,68,N,67,N,gp120,66,N,N,gp120,1,N,A
+63,69,V,68,V,gp120,67,I,V,gp120,0,V,A
+64,70,W,69,W,gp120,68,W,W,gp120,1,W,A
+65,71,A,70,A,gp120,69,A,A,gp120,1,A,A
+66,72,T,71,T,gp120,70,T,T,gp120,1,T,A
+67,73,H,72,H,gp120,71,H,H,gp120,1,H,A
+68,74,A,73,A,gp120,72,A,A,gp120,1,A,A
+69,75,C,74,C,gp120,73,C,C,gp120,1,C,A
+70,76,V,75,V,gp120,74,V,V,gp120,1,V,A
+71,77,P,76,P,gp120,75,P,P,gp120,1,P,A
+72,78,T,77,T,gp120,76,T,T,gp120,1,T,A
+73,79,D,78,D,gp120,77,D,D,gp120,1,D,A
+74,80,P,79,P,gp120,78,P,P,gp120,1,P,A
+75,81,N,80,N,gp120,79,N,N,gp120,1,N,A
+76,82,P,81,P,gp120,80,P,P,gp120,1,P,A
+77,83,Q,82,Q,gp120,81,Q,Q,gp120,1,Q,A
+78,84,E,83,E,gp120,82,E,E,gp120,1,E,A
+79,85,V,84,V,gp120,83,I,V,gp120,0,V,A
+80,86,V,85,V,gp120,84,N,V,gp120,0,V,A
+81,87,L,86,L,gp120,85,L,L,gp120,1,L,A
+82,88,G,87,V,gp120,86,E,V,gp120,0,G,A
+83,89,N,88,N,gp120,87,N,N,gp120,1,N,A
+84,90,V,89,V,gp120,88,V,V,gp120,1,V,A
+85,91,T,90,T,gp120,89,T,T,gp120,1,T,A
+86,92,E,91,E,gp120,90,E,E,gp120,1,E,A
+87,93,N,92,N,gp120,91,E,N,gp120,0,N,A
+88,94,F,93,F,gp120,92,F,F,gp120,1,F,A
+89,95,N,94,N,gp120,93,N,N,gp120,1,N,A
+90,96,M,95,M,gp120,94,M,M,gp120,1,M,A
+91,97,W,96,W,gp120,95,W,W,gp120,1,W,A
+92,98,K,97,K,gp120,96,K,K,gp120,1,K,A
+93,99,N,98,N,gp120,97,N,N,gp120,1,N,A
+94,100,N,99,D,gp120,98,N,D,gp120,1,N,A
+95,101,M,100,M,gp120,99,M,M,gp120,1,M,A
+96,102,V,101,V,gp120,100,V,V,gp120,1,V,A
+97,103,D,102,E,gp120,101,E,E,gp120,0,D,A
+98,104,Q,103,Q,gp120,102,Q,Q,gp120,1,Q,A
+99,105,M,104,M,gp120,103,M,M,gp120,1,M,A
+100,106,H,105,H,gp120,104,H,H,gp120,1,H,A
+101,107,E,106,E,gp120,105,T,E,gp120,0,E,A
+102,108,D,107,D,gp120,106,D,D,gp120,1,D,A
+103,109,I,108,I,gp120,107,I,I,gp120,1,I,A
+104,110,I,109,I,gp120,108,I,I,gp120,1,I,A
+105,111,S,110,S,gp120,109,S,S,gp120,1,S,A
+106,112,L,111,L,gp120,110,L,L,gp120,1,L,A
+107,113,W,112,W,gp120,111,W,W,gp120,1,W,A
+108,114,D,113,D,gp120,112,D,D,gp120,1,D,A
+109,115,Q,114,Q,gp120,113,Q,Q,gp120,1,Q,A
+110,116,S,115,S,gp120,114,G,S,gp120,0,S,A
+111,117,L,116,L,gp120,115,L,L,gp120,1,L,A
+112,118,K,117,K,gp120,116,K,K,gp120,1,K,A
+113,119,P,118,P,gp120,117,P,P,gp120,1,P,A
+114,120,C,119,C,gp120,118,C,C,gp120,1,C,A
+115,121,V,120,V,gp120,119,V,V,gp120,1,V,A
+116,122,K,121,K,gp120,120,K,K,gp120,1,K,A
+117,123,L,122,L,gp120,121,L,L,gp120,1,L,A
+118,124,T,123,T,gp120,122,T,T,gp120,1,T,A
+119,125,P,124,P,gp120,123,P,P,gp120,1,P,A
+120,126,L,125,L,gp120,124,L,L,gp120,1,L,A
+121,127,C,126,C,gp120,125,C,C,gp120,1,C,A
+122,128,V,127,V,gp120,126,V,V,gp120,1,V,A
+123,129,T,128,S,gp120,127,T,S,gp120,1,T,A
+124,130,L,129,L,gp120,128,L,L,gp120,1,L,A
+125,131,N,130,K,gp120,129,D,K,gp120,0,N,A
+126,132,C,131,C,V1 loop,130,C,C,V1 loop,1,C,A
+127,133,T,132,T,V1 loop,131,H,T,V1 loop,0,T,A
+128,134,D,133,D,V1 loop,132,N,D,V1 loop,0,D,A
+129,135,N,134,L,V1 loop,133,V,L,V1 loop,0,N,A
+130,136,I,135,K,V1 loop,134,T,K,V1 loop,0,I,A
+131,137,T,136,N,V1 loop,135,Y,N,V1 loop,0,T,A
+132,138,N,137,D,V1 loop,136,N,D,V1 loop,1,N,A
+133,139,T,138,T,V1 loop,137,I,T,V1 loop,0,T,A
+134,140,N,139,N,V1 loop,138,T,N,V1 loop,0,N,A
+135,141,T,140,T,V1 loop,139,S,T,V1 loop,0,T,A
+136,142,N,141,N,V1 loop,140,D,N,V1 loop,0,N,A
+137,143,S,142,S,V1 loop,141,M,S,V1 loop,0,S,A
+138,157,E,151,K,V1 loop,142,K,K,V1 loop,0,E,A
+139,158,G,152,G,V1 loop,143,E,G,V1 loop,0,G,A
+140,159,E,153,E,V1 loop,144,E,E,V1 loop,1,E,A
+141,160,M,154,I,V1 loop,145,I,I,V1 loop,0,M,A
+142,161,K,155,K,V1 loop,146,T,K,V1 loop,0,K,A
+143,162,N,156,N,V1 loop,147,N,N,V1 loop,1,N,A
+144,163,C,157,C,V2 loop,148,C,C,V2 loop,1,C,A
+145,164,S,158,S,V2 loop,149,S,S,V2 loop,1,S,A
+146,165,F,159,F,V2 loop,150,Y,F,V2 loop,0,F,A
+147,166,N,160,N,V2 loop,151,N,N,V2 loop,1,N,A
+148,167,I,161,I,V2 loop,152,V,I,V2 loop,0,I,A
+149,168,T,162,S,V2 loop,153,T,S,V2 loop,1,T,A
+150,169,A,163,T,V2 loop,154,T,T,V2 loop,0,A,A
+151,170,G,164,S,V2 loop,155,V,S,V2 loop,0,G,A
+152,171,I,165,I,V2 loop,156,I,I,V2 loop,1,I,A
+153,172,R,166,R,V2 loop,157,R,R,V2 loop,1,R,A
+154,173,D,167,G,V2 loop,158,D,G,V2 loop,1,D,A
+155,174,K,168,K,V2 loop,159,K,K,V2 loop,1,K,A
+156,175,V,169,V,V2 loop,160,K,V,V2 loop,0,V,A
+157,176,K,170,Q,V2 loop,161,Q,Q,V2 loop,0,K,A
+158,177,K,171,K,V2 loop,162,K,K,V2 loop,1,K,A
+159,178,E,172,E,V2 loop,163,V,E,V2 loop,0,E,A
+160,179,Y,173,Y,V2 loop,164,S,Y,V2 loop,0,Y,A
+161,180,A,174,A,V2 loop,165,S,A,V2 loop,0,A,A
+162,181,L,175,F,V2 loop,166,L,F,V2 loop,1,L,A
+163,182,F,176,F,V2 loop,167,F,F,V2 loop,1,F,A
+164,183,Y,177,Y,V2 loop,168,Y,Y,V2 loop,1,Y,A
+165,184,K,178,K,V2 loop,169,K,K,V2 loop,1,K,A
+166,185,L,179,L,V2 loop,170,L,L,V2 loop,1,L,A
+167,186,D,180,D,V2 loop,171,D,D,V2 loop,1,D,A
+168,187,V,181,I,V2 loop,172,V,I,V2 loop,1,V,A
+169,188,V,182,I,V2 loop,173,V,I,V2 loop,1,V,A
+170,189,P,183,P,V2 loop,174,Q,P,V2 loop,0,P,A
+171,190,I,184,I,V2 loop,175,I,I,V2 loop,1,I,A
+172,191,E,184a,-,V2 loop,176,G,-,V2 loop,0,E,A
+173,192,E,184b,-,V2 loop,177,G,-,V2 loop,0,E,A
+174,193,D,185,D,V2 loop,178,N,D,V2 loop,0,D,A
+175,194,K,186,N,V2 loop,179,N,N,V2 loop,0,K,A
+176,195,D,187,D,V2 loop,180,R,D,V2 loop,0,D,A
+177,196,T,188,T,V2 loop,181,T,T,V2 loop,1,T,A
+178,199,T,189,T,V2 loop,182,N,T,V2 loop,0,T,A
+179,200,T,190,S,V2 loop,183,S,S,V2 loop,0,T,A
+180,201,Y,191,Y,V2 loop,185,Y,Y,V2 loop,1,Y,A
+181,202,R,192,K,V2 loop,186,R,K,V2 loop,1,R,A
+182,203,L,193,L,V2 loop,187,L,L,V2 loop,1,L,A
+183,204,R,194,T,V2 loop,188,I,T,V2 loop,0,R,A
+184,205,S,195,S,V2 loop,189,N,S,V2 loop,0,S,A
+185,206,C,196,C,V2 loop,190,C,C,V2 loop,1,C,A
+186,207,N,197,N,gp120,191,N,N,gp120,1,N,A
+187,208,T,198,T,gp120,192,T,T,gp120,1,T,A
+188,209,S,199,S,gp120,193,S,S,gp120,1,S,A
+189,210,V,200,V,gp120,194,A,V,gp120,0,V,A
+190,211,I,201,I,gp120,195,I,I,gp120,1,I,A
+191,212,T,202,T,gp120,196,T,T,gp120,1,T,A
+192,213,Q,203,Q,gp120,197,Q,Q,gp120,1,Q,A
+193,214,A,204,A,gp120,198,A,A,gp120,1,A,A
+194,215,C,205,C,gp120,199,C,C,gp120,1,C,A
+195,216,P,206,P,gp120,200,P,P,gp120,1,P,A
+196,217,K,207,K,gp120,201,K,K,gp120,1,K,A
+197,218,V,208,V,gp120,202,V,V,gp120,1,V,A
+198,219,T,209,S,gp120,203,T,S,gp120,1,T,A
+199,220,F,210,F,gp120,204,F,F,gp120,1,F,A
+200,221,E,211,E,gp120,205,E,E,gp120,1,E,A
+201,222,P,212,P,gp120,206,P,P,gp120,1,P,A
+202,223,I,213,I,gp120,207,I,I,gp120,1,I,A
+203,224,P,214,P,gp120,208,P,P,gp120,1,P,A
+204,225,I,215,I,gp120,209,I,I,gp120,1,I,A
+205,226,H,216,H,gp120,210,H,H,gp120,1,H,A
+206,227,Y,217,Y,gp120,211,Y,Y,gp120,1,Y,A
+207,228,C,218,C,gp120,212,C,C,gp120,1,C,A
+208,229,A,219,A,gp120,213,A,A,gp120,1,A,A
+209,230,P,220,P,gp120,214,P,P,gp120,1,P,A
+210,231,A,221,A,gp120,215,A,A,gp120,1,A,A
+211,232,G,222,G,gp120,216,G,G,gp120,1,G,A
+212,233,F,223,F,gp120,217,F,F,gp120,1,F,A
+213,234,A,224,A,gp120,218,A,A,gp120,1,A,A
+214,235,I,225,I,gp120,219,I,I,gp120,1,I,A
+215,236,L,226,L,gp120,220,L,L,gp120,1,L,A
+216,237,K,227,K,gp120,221,K,K,gp120,1,K,A
+217,238,C,228,C,gp120,222,C,C,gp120,1,C,A
+218,239,N,229,N,gp120,223,K,N,gp120,0,N,A
+219,240,D,230,N,gp120,224,D,N,gp120,1,D,A
+220,241,K,231,K,gp120,225,E,K,gp120,0,K,A
+221,242,K,232,T,gp120,226,K,T,gp120,1,K,A
+222,243,F,233,F,gp120,227,F,F,gp120,1,F,A
+223,244,N,234,N,gp120,228,N,N,gp120,1,N,A
+224,245,G,235,G,gp120,229,G,G,gp120,1,G,A
+225,246,T,236,T,gp120,230,T,T,gp120,1,T,A
+226,247,G,237,G,gp120,231,G,G,gp120,1,G,A
+227,248,P,238,P,gp120,232,L,P,gp120,0,P,A
+228,249,C,239,C,gp120,233,C,C,gp120,1,C,A
+229,250,T,240,T,gp120,234,K,T,gp120,0,T,A
+230,251,N,241,N,gp120,235,N,N,gp120,1,N,A
+231,252,V,242,V,gp120,236,V,V,gp120,1,V,A
+232,253,S,243,S,gp120,237,S,S,gp120,1,S,A
+233,254,T,244,T,gp120,238,T,T,gp120,1,T,A
+234,255,V,245,V,gp120,239,V,V,gp120,1,V,A
+235,256,Q,246,Q,gp120,240,Q,Q,gp120,1,Q,A
+236,257,C,247,C,gp120,241,C,C,gp120,1,C,A
+237,258,T,248,T,gp120,242,T,T,gp120,1,T,A
+238,259,H,249,H,gp120,243,H,H,gp120,1,H,A
+239,260,G,250,G,gp120,244,G,G,gp120,1,G,A
+240,261,I,251,I,gp120,245,I,I,gp120,1,I,A
+241,262,R,252,R,gp120,246,K,R,gp120,0,R,A
+242,263,P,253,P,gp120,247,P,P,gp120,1,P,A
+243,264,V,254,V,gp120,248,V,V,gp120,1,V,A
+244,265,V,255,V,gp120,249,V,V,gp120,1,V,A
+245,266,S,256,S,gp120,250,S,S,gp120,1,S,A
+246,267,T,257,T,gp120,251,T,T,gp120,1,T,A
+247,268,Q,258,Q,gp120,252,Q,Q,gp120,1,Q,A
+248,269,L,259,L,gp120,253,L,L,gp120,1,L,A
+249,270,L,260,L,gp120,254,L,L,gp120,1,L,A
+250,271,L,261,L,gp120,255,L,L,gp120,1,L,A
+251,272,N,262,N,gp120,256,N,N,gp120,1,N,A
+252,273,G,263,G,gp120,257,G,G,gp120,1,G,A
+253,274,S,264,S,gp120,258,S,S,gp120,1,S,A
+254,275,L,265,L,gp120,259,L,L,gp120,1,L,A
+255,276,A,266,A,gp120,260,A,A,gp120,1,A,A
+256,277,E,267,E,gp120,261,E,E,gp120,1,E,A
+257,278,E,268,E,gp120,262,G,E,gp120,0,E,A
+258,279,E,269,E,gp120,263,E,E,gp120,1,E,A
+259,280,V,270,V,gp120,264,V,V,gp120,1,V,A
+260,281,V,271,V,gp120,265,R,V,gp120,0,V,A
+261,282,I,272,I,gp120,266,I,I,gp120,1,I,A
+262,283,R,273,R,gp120,267,R,R,gp120,1,R,A
+263,284,S,274,S,gp120,268,S,S,gp120,1,S,A
+264,285,E,275,V,Loop D,269,E,V,Loop D,1,E,A
+265,286,N,276,N,Loop D,270,N,N,Loop D,1,N,A
+266,287,F,277,F,Loop D,271,I,F,Loop D,0,F,A
+267,288,T,278,T,Loop D,272,T,T,Loop D,1,T,A
+268,289,N,279,D,Loop D,273,N,D,Loop D,1,N,A
+269,290,N,280,N,Loop D,274,N,N,Loop D,1,N,A
+270,291,A,281,A,Loop D,275,A,A,Loop D,1,A,A
+271,292,K,282,K,Loop D,276,K,K,Loop D,1,K,A
+272,293,T,283,T,Loop D,277,N,T,Loop D,0,T,A
+273,294,I,284,I,gp120,278,I,I,gp120,1,I,A
+274,295,I,285,I,gp120,279,I,I,gp120,1,I,A
+275,296,V,286,V,gp120,280,V,V,gp120,1,V,A
+276,297,Q,287,Q,gp120,281,Q,Q,gp120,1,Q,A
+277,298,L,288,L,gp120,282,L,L,gp120,1,L,A
+278,299,N,289,N,gp120,283,A,N,gp120,0,N,A
+279,300,E,290,T,gp120,284,S,T,gp120,0,E,A
+280,301,S,291,S,gp120,285,P,S,gp120,0,S,A
+281,302,I,292,V,gp120,286,V,V,gp120,0,I,A
+282,303,A,293,E,gp120,287,T,E,gp120,0,A,A
+283,304,I,294,I,gp120,288,I,I,gp120,1,I,A
+284,305,N,295,N,gp120,289,N,N,gp120,1,N,A
+285,306,C,296,C,V3 loop,290,C,C,V3 loop,1,C,A
+286,307,T,297,T,V3 loop,291,I,T,V3 loop,0,T,A
+287,308,R,298,R,V3 loop,292,R,R,V3 loop,1,R,A
+288,309,P,299,P,V3 loop,293,P,P,V3 loop,1,P,A
+289,310,N,300,N,V3 loop,294,N,N,V3 loop,1,N,A
+290,311,N,301,N,V3 loop,295,N,N,V3 loop,1,N,A
+291,312,N,302,N,V3 loop,296,N,N,V3 loop,1,N,A
+292,313,T,303,T,V3 loop,297,T,T,V3 loop,1,T,A
+293,314,R,304,R,V3 loop,298,R,R,V3 loop,1,R,A
+294,315,R,305,K,V3 loop,299,K,K,V3 loop,0,R,A
+295,316,S,306,R,V3 loop,300,S,R,V3 loop,1,S,A
+296,317,I,307,I,V3 loop,301,V,I,V3 loop,0,I,A
+297,318,H,308,R,V3 loop,302,H,R,V3 loop,1,H,A
+298,319,I,309,I,V3 loop,303,L,I,V3 loop,0,I,A
+299,320,G,312,G,V3 loop,304,G,G,V3 loop,1,G,A
+300,321,P,313,P,V3 loop,305,P,P,V3 loop,1,P,A
+301,322,G,314,G,V3 loop,306,G,G,V3 loop,1,G,A
+302,323,R,315,R,V3 loop,307,Q,R,V3 loop,0,R,A
+303,324,A,316,A,V3 loop,308,A,A,V3 loop,1,A,A
+304,325,F,317,F,V3 loop,309,F,F,V3 loop,1,F,A
+305,326,Y,318,V,V3 loop,311,A,V,V3 loop,0,Y,A
+306,327,A,319,T,V3 loop,312,T,T,V3 loop,0,A,A
+307,328,T,320,I,V3 loop,313,D,I,V3 loop,0,T,A
+308,329,G,321,G,V3 loop,314,G,G,V3 loop,1,G,A
+309,330,D,322,K,V3 loop,315,I,K,V3 loop,0,D,A
+310,332,I,323,I,V3 loop,316,I,I,V3 loop,1,I,A
+311,333,G,324,G,V3 loop,317,G,G,V3 loop,1,G,A
+312,334,D,325,N,V3 loop,318,E,N,V3 loop,0,D,A
+313,335,I,326,M,V3 loop,319,I,M,V3 loop,1,I,A
+314,336,R,327,R,V3 loop,320,R,R,V3 loop,1,R,A
+315,337,Q,328,Q,V3 loop,321,Q,Q,V3 loop,1,Q,A
+316,338,A,329,A,V3 loop,322,A,A,V3 loop,1,A,A
+317,339,H,330,H,V3 loop,323,H,H,V3 loop,1,H,A
+318,340,C,331,C,V3 loop,324,C,C,V3 loop,1,C,A
+319,341,N,332,N,gp120,325,N,N,gp120,1,N,A
+320,342,I,333,I,gp120,326,V,I,gp120,0,I,A
+321,343,S,334,S,gp120,327,S,S,gp120,1,S,A
+322,344,R,335,R,gp120,328,K,R,gp120,0,R,A
+323,345,T,336,A,gp120,329,K,A,gp120,0,T,A
+324,346,E,337,K,gp120,330,E,K,gp120,1,E,A
+325,347,W,338,W,gp120,331,W,W,gp120,1,W,A
+326,348,N,339,N,gp120,332,N,N,gp120,1,N,A
+327,349,S,340,N,gp120,333,S,N,gp120,1,S,A
+328,350,T,341,T,gp120,334,T,T,gp120,1,T,A
+329,351,L,342,L,gp120,335,L,L,gp120,1,L,A
+330,352,R,343,K,gp120,336,Q,K,gp120,0,R,A
+331,353,Q,344,Q,gp120,337,K,Q,gp120,0,Q,A
+332,354,I,345,I,gp120,338,V,I,gp120,0,I,A
+333,355,V,346,A,gp120,339,A,A,gp120,0,V,A
+334,356,T,347,S,gp120,340,N,S,gp120,0,T,A
+335,357,K,348,K,gp120,341,Q,K,gp120,0,K,A
+336,358,L,349,L,gp120,342,L,L,gp120,1,L,A
+337,359,R,350,R,gp120,343,R,R,gp120,1,R,A
+338,360,E,351,E,gp120,344,P,E,gp120,0,E,A
+339,361,Q,352,Q,gp120,345,Y,Q,gp120,0,Q,A
+340,362,L,353,F,gp120,346,F,F,gp120,0,L,A
+341,363,G,354,G,gp120,347,K,G,gp120,0,G,A
+342,364,D,355,N,gp120,348,N,N,gp120,0,D,A
+343,366,N,356,N,gp120,349,N,N,gp120,1,N,A
+344,367,K,357,K,gp120,350,T,K,gp120,0,K,A
+345,368,T,358,T,gp120,351,I,T,gp120,0,T,A
+346,369,I,359,I,gp120,352,I,I,gp120,1,I,A
+347,370,I,360,I,gp120,353,K,I,gp120,0,I,A
+348,371,F,361,F,gp120,354,F,F,gp120,1,F,A
+349,372,N,362,K,gp120,355,A,K,gp120,0,N,A
+350,373,Q,363,Q,gp120,356,N,Q,gp120,0,Q,A
+351,374,S,364,S,CD4 binding loop,357,S,S,CD4 binding loop,1,S,A
+352,375,S,365,S,CD4 binding loop,358,S,S,CD4 binding loop,1,S,A
+353,376,G,366,G,CD4 binding loop,359,G,G,CD4 binding loop,1,G,A
+354,377,G,367,G,CD4 binding loop,360,G,G,CD4 binding loop,1,G,A
+355,378,D,368,D,CD4 binding loop,361,D,D,CD4 binding loop,1,D,A
+356,379,T,369,P,CD4 binding loop,362,L,P,CD4 binding loop,0,T,A
+357,380,E,370,E,CD4 binding loop,363,E,E,CD4 binding loop,1,E,A
+358,381,I,371,I,CD4 binding loop,364,I,I,CD4 binding loop,1,I,A
+359,382,T,372,V,CD4 binding loop,365,T,V,CD4 binding loop,1,T,A
+360,383,M,373,T,CD4 binding loop,366,T,T,CD4 binding loop,0,M,A
+361,384,H,374,H,CD4 binding loop,367,H,H,CD4 binding loop,1,H,A
+362,385,S,375,S,gp120,368,S,S,gp120,1,S,A
+363,386,F,376,F,gp120,369,F,F,gp120,1,F,A
+364,387,N,377,N,gp120,370,N,N,gp120,1,N,A
+365,388,C,378,C,gp120,371,C,C,gp120,1,C,A
+366,389,G,379,G,gp120,372,G,G,gp120,1,G,A
+367,390,G,380,G,gp120,373,G,G,gp120,1,G,A
+368,391,E,381,E,gp120,374,E,E,gp120,1,E,A
+369,392,F,382,F,gp120,375,F,F,gp120,1,F,A
+370,393,F,383,F,gp120,376,F,F,gp120,1,F,A
+371,394,Y,384,Y,gp120,377,Y,Y,gp120,1,Y,A
+372,395,C,385,C,V4 loop,378,C,C,V4 loop,1,C,A
+373,396,N,386,N,V4 loop,379,N,N,V4 loop,1,N,A
+374,397,T,387,S,V4 loop,380,T,S,V4 loop,1,T,A
+375,398,T,388,T,V4 loop,381,S,T,V4 loop,0,T,A
+376,399,K,389,Q,V4 loop,382,G,Q,V4 loop,0,K,A
+377,400,L,390,L,V4 loop,383,L,L,V4 loop,1,L,A
+378,401,F,391,F,V4 loop,384,F,F,V4 loop,1,F,A
+379,402,N,392,N,V4 loop,385,N,N,V4 loop,1,N,A
+380,403,S,393,S,V4 loop,386,S,S,V4 loop,1,S,A
+381,404,T,394,T,V4 loop,387,T,T,V4 loop,1,T,A
+382,405,W,395,W,V4 loop,388,W,W,V4 loop,1,W,A
+383,409,N,406,N,V4 loop,395,N,N,V4 loop,1,N,A
+384,410,T,407,N,V4 loop,396,N,N,V4 loop,0,T,A
+385,411,T,408,T,V4 loop,397,S,T,V4 loop,0,T,A
+386,412,E,409,E,V4 loop,398,N,E,V4 loop,0,E,A
+387,413,S,410,G,V4 loop,399,S,G,V4 loop,1,S,A
+388,414,D,411,S,V4 loop,400,T,S,V4 loop,0,D,A
+389,415,S,412,D,V4 loop,401,E,D,V4 loop,0,S,A
+390,416,T,413,T,V4 loop,402,N,T,V4 loop,0,T,A
+391,420,I,414,I,V4 loop,403,I,I,V4 loop,1,I,A
+392,421,T,415,T,V4 loop,404,T,T,V4 loop,1,T,A
+393,422,L,416,L,V4 loop,405,L,L,V4 loop,1,L,A
+394,423,P,417,P,V4 loop,406,Q,P,V4 loop,0,P,A
+395,424,C,418,C,V4 loop,407,C,C,V4 loop,1,C,A
+396,425,R,419,R,gp120,408,R,R,gp120,1,R,A
+397,426,I,420,I,gp120,409,I,I,gp120,1,I,A
+398,427,K,421,K,gp120,410,K,K,gp120,1,K,A
+399,428,Q,422,Q,gp120,411,Q,Q,gp120,1,Q,A
+400,429,I,423,I,gp120,412,I,I,gp120,1,I,A
+401,430,I,424,I,gp120,413,I,I,gp120,1,I,A
+402,431,N,425,N,gp120,414,N,N,gp120,1,N,A
+403,432,L,426,M,gp120,415,M,M,gp120,0,L,A
+404,433,W,427,W,gp120,416,W,W,gp120,1,W,A
+405,434,Q,428,Q,gp120,417,Q,Q,gp120,1,Q,A
+406,435,E,429,K,gp120,418,R,K,gp120,0,E,A
+407,436,V,430,V,gp120,419,A,V,gp120,0,V,A
+408,437,G,431,G,gp120,420,G,G,gp120,1,G,A
+409,438,K,432,K,gp120,421,Q,K,gp120,0,K,A
+410,439,A,433,A,gp120,422,A,A,gp120,1,A,A
+411,440,M,434,M,gp120,423,I,M,gp120,0,M,A
+412,441,Y,435,Y,gp120,424,Y,Y,gp120,1,Y,A
+413,442,A,436,A,gp120,425,A,A,gp120,1,A,A
+414,443,P,437,P,gp120,426,P,P,gp120,1,P,A
+415,444,P,438,P,gp120,427,P,P,gp120,1,P,A
+416,445,I,439,I,gp120,428,I,I,gp120,1,I,A
+417,446,K,440,S,gp120,429,P,S,gp120,0,K,A
+418,447,G,441,G,gp120,430,G,G,gp120,1,G,A
+419,448,Q,442,Q,gp120,431,V,Q,gp120,0,Q,A
+420,449,I,443,I,gp120,432,I,I,gp120,1,I,A
+421,450,S,444,R,gp120,433,R,R,gp120,0,S,A
+422,451,C,445,C,gp120,434,C,C,gp120,1,C,A
+423,452,S,446,S,gp120,435,K,S,gp120,0,S,A
+424,453,S,447,S,gp120,436,S,S,gp120,1,S,A
+425,454,N,448,N,gp120,437,N,N,gp120,1,N,A
+426,455,I,449,I,gp120,438,I,I,gp120,1,I,A
+427,456,T,450,T,gp120,439,T,T,gp120,1,T,A
+428,457,G,451,G,gp120,440,G,G,gp120,1,G,A
+429,458,L,452,L,gp120,441,L,L,gp120,1,L,A
+430,459,L,453,L,gp120,442,I,L,gp120,0,L,A
+431,460,L,454,L,gp120,443,L,L,gp120,1,L,A
+432,461,T,455,T,gp120,444,T,T,gp120,1,T,A
+433,462,R,456,R,gp120,445,R,R,gp120,1,R,A
+434,463,D,457,D,gp120,446,D,D,gp120,1,D,A
+435,464,G,458,G,gp120,447,G,G,gp120,1,G,A
+436,465,G,459,G,gp120,448,G,G,gp120,1,G,A
+437,466,N,460,N,V5 loop,449,S,N,V5 loop,0,N,A
+438,467,N,461,S,V5 loop,450,N,S,V5 loop,1,N,A
+439,468,N,462,N,V5 loop,451,K,N,V5 loop,0,N,A
+440,469,S,463,N,V5 loop,452,N,N,V5 loop,0,S,A
+441,470,S,464,E,V5 loop,453,T,E,V5 loop,0,S,A
+442,471,G,465,S,V5 loop,454,S,S,V5 loop,0,G,A
+443,473,E,466,E,V5 loop,455,E,E,V5 loop,1,E,A
+444,474,T,467,I,V5 loop,456,T,I,V5 loop,1,T,A
+445,475,F,468,F,V5 loop,457,F,F,V5 loop,1,F,A
+446,476,R,469,R,V5 loop,458,R,R,V5 loop,1,R,A
+447,477,P,470,P,V5 loop,459,P,P,gp120,1,P,A
+448,478,G,471,G,gp120,460,G,G,gp120,1,G,A
+449,479,G,472,G,gp120,461,G,G,gp120,1,G,A
+450,480,G,473,G,gp120,462,G,G,gp120,1,G,A
+451,481,N,474,D,gp120,463,D,D,gp120,0,N,A
+452,482,M,475,M,gp120,464,M,M,gp120,1,M,A
+453,483,K,476,R,gp120,465,R,R,gp120,0,K,A
+454,484,D,477,D,gp120,466,D,D,gp120,1,D,A
+455,485,N,478,N,gp120,467,N,N,gp120,1,N,A
+456,486,W,479,W,gp120,468,W,W,gp120,1,W,A
+457,487,R,480,R,gp120,469,R,R,gp120,1,R,A
+458,488,S,481,S,gp120,470,S,S,gp120,1,S,A
+459,489,E,482,E,gp120,471,E,E,gp120,1,E,A
+460,490,L,483,L,gp120,472,L,L,gp120,1,L,A
+461,491,Y,484,Y,gp120,473,Y,Y,gp120,1,Y,A
+462,492,K,485,K,gp120,474,K,K,gp120,1,K,A
+463,493,Y,486,Y,gp120,475,Y,Y,gp120,1,Y,A
+464,494,K,487,K,gp120,476,K,K,gp120,1,K,A
+465,495,V,488,V,gp120,477,V,V,gp120,1,V,A
+466,496,I,489,V,gp120,478,V,V,gp120,0,I,A
+467,497,K,490,K,gp120,479,K,K,gp120,1,K,A
+468,498,I,491,I,gp120,480,I,I,gp120,1,I,A
+469,499,E,492,E,gp120,481,E,E,gp120,1,E,A
+470,500,P,493,P,gp120,482,P,P,gp120,1,P,A
+471,501,L,494,L,gp120,483,I,L,gp120,0,L,A
+472,502,G,495,G,gp120,484,G,G,gp120,1,G,A
+473,503,V,496,V,gp120,485,V,V,gp120,1,V,A
+474,504,A,497,A,gp120,486,A,A,gp120,1,A,A
+475,505,P,498,P,gp120,487,P,P,gp120,1,P,A
+476,506,T,499,T,gp120,488,T,T,gp120,1,T,A
+477,507,R,500,K,gp120,489,R,K,gp120,1,R,A
+478,508,A,501,A,gp120,490,A,A,gp120,1,A,A
+479,509,K,502,K,gp120,491,K,K,gp120,1,K,A
+480,510,R,503,R,gp120,492,R,R,gp120,1,R,A
+481,511,R,504,R,gp120,493,R,R,gp120,1,R,A
+482,512,V,505,V,gp120,494,V,V,gp120,1,V,A
+483,513,V,506,V,gp120,495,V,V,gp120,1,V,A
+484,514,Q,507,Q,gp120,496,E,Q,gp120,0,Q,A
+485,515,R,508,R,gp120,497,R,R,gp120,1,R,A
+486,516,E,509,E,gp120,498,E,E,gp120,1,E,A
+487,517,K,510,K,gp120,499,K,K,gp120,1,K,A
+488,518,R,511,R,gp120,500,R,R,gp120,1,R,A
+489,519,A,512,A,fusion peptide,501,A,A,fusion peptide,1,A,A
+490,520,V,513,V,fusion peptide,502,V,V,fusion peptide,1,V,A
+491,521,G,514,G,fusion peptide,503,G,G,fusion peptide,1,G,A
+492,523,L,515,I,fusion peptide,504,I,I,fusion peptide,0,L,A
+493,524,G,516,G,fusion peptide,505,G,G,fusion peptide,1,G,A
+494,525,A,517,A,fusion peptide,506,A,A,fusion peptide,1,A,A
+495,526,M,518,L,fusion peptide,507,V,L,fusion peptide,0,M,A
+496,527,F,519,F,fusion peptide,508,F,F,fusion peptide,1,F,A
+497,528,L,520,L,fusion peptide,509,I,L,fusion peptide,0,L,A
+498,529,G,521,G,fusion peptide,510,G,G,fusion peptide,1,G,A
+499,530,F,522,F,fusion peptide,511,F,F,fusion peptide,1,F,A
+500,531,L,523,L,fusion peptide,512,L,L,fusion peptide,1,L,A
+501,532,G,524,G,fusion peptide,513,G,G,fusion peptide,1,G,A
+502,533,A,525,A,fusion peptide,514,A,A,fusion peptide,1,A,A
+503,534,A,526,A,fusion peptide,515,A,A,fusion peptide,1,A,A
+504,535,G,527,G,fusion peptide,516,G,G,fusion peptide,1,G,A
+505,536,S,528,S,gp41,517,S,S,gp41,1,S,A
+506,537,T,529,T,gp41,518,T,T,gp41,1,T,A
+507,538,M,530,M,gp41,519,M,M,gp41,1,M,A
+508,539,G,531,G,gp41,520,G,G,gp41,1,G,A
+509,540,A,532,A,gp41,521,A,A,gp41,1,A,A
+510,541,A,533,A,gp41,522,A,A,gp41,1,A,A
+511,542,S,534,S,gp41,523,S,S,gp41,1,S,A
+512,543,V,535,M,N-helix,524,V,M,gp41,1,V,A
+513,544,T,536,T,N-helix,525,T,T,gp41,1,T,A
+514,545,L,537,L,N-helix,526,L,L,gp41,1,L,A
+515,546,T,538,T,N-helix,527,T,T,gp41,1,T,A
+516,547,V,539,V,N-helix,528,V,V,gp41,1,V,A
+517,548,Q,540,Q,N-helix,529,Q,Q,gp41,1,Q,A
+518,549,A,541,A,N-helix,530,A,A,gp41,1,A,A
+519,550,R,542,R,N-helix,531,R,R,gp41,1,R,A
+520,551,L,543,Q,N-helix,532,Q,Q,gp41,0,L,A
+521,552,L,544,L,N-helix,533,L,L,gp41,1,L,A
+522,553,L,545,L,N-helix,534,L,L,gp41,1,L,A
+523,554,S,546,S,N-helix,535,S,S,gp41,1,S,A
+524,555,G,547,G,N-helix,536,G,G,gp41,1,G,A
+525,556,I,548,I,N-helix,537,I,I,gp41,1,I,A
+526,557,V,549,V,N-helix,538,V,V,gp41,1,V,A
+527,558,Q,550,Q,N-helix,539,Q,Q,gp41,1,Q,A
+528,559,Q,551,Q,N-helix,540,Q,Q,gp41,1,Q,A
+529,560,Q,552,Q,N-helix,541,Q,Q,gp41,1,Q,A
+530,561,N,553,N,N-helix,542,S,N,gp41,0,N,A
+531,562,N,554,N,N-helix,543,N,N,gp41,1,N,A
+532,563,L,555,L,N-helix,544,L,L,gp41,1,L,A
+533,564,L,556,L,N-helix,545,L,L,gp41,1,L,A
+534,565,R,557,R,N-helix,546,R,R,gp41,1,R,A
+535,566,A,558,A,N-helix,547,A,A,gp41,1,A,A
+536,567,I,559,I,N-helix,548,I,I,gp41,1,I,A
+537,568,E,560,E,N-helix,549,E,E,gp41,1,E,A
+538,569,A,561,A,N-helix,550,A,A,gp41,1,A,A
+539,570,Q,562,Q,N-helix,551,Q,Q,gp41,1,Q,A
+540,571,Q,563,Q,N-helix,552,Q,Q,gp41,1,Q,A
+541,572,H,564,H,N-helix,553,H,H,gp41,1,H,A
+542,573,M,565,L,N-helix,554,L,L,gp41,0,M,A
+543,574,L,566,L,N-helix,555,L,L,gp41,1,L,A
+544,575,Q,567,Q,N-helix,556,K,Q,gp41,0,Q,A
+545,576,L,568,L,N-helix,557,L,L,gp41,1,L,A
+546,577,T,569,T,N-helix,558,T,T,gp41,1,T,A
+547,578,V,570,V,N-helix,559,V,V,gp41,1,V,A
+548,579,W,571,W,N-helix,560,W,W,gp41,1,W,A
+549,580,G,572,G,N-helix,561,G,G,gp41,1,G,A
+550,581,I,573,I,N-helix,562,I,I,gp41,1,I,A
+551,582,K,574,K,N-helix,563,K,K,gp41,1,K,A
+552,583,Q,575,Q,N-helix,564,Q,Q,gp41,1,Q,A
+553,584,L,576,L,N-helix,565,L,L,gp41,1,L,A
+554,585,Q,577,Q,N-helix,566,Q,Q,gp41,1,Q,A
+555,586,A,578,A,N-helix,567,A,A,gp41,1,A,A
+556,587,R,579,R,N-helix,568,R,R,gp41,1,R,A
+557,588,V,580,I,N-helix,569,V,I,gp41,1,V,A
+558,589,L,581,L,N-helix,570,L,L,gp41,1,L,A
+559,590,A,582,A,N-helix,571,A,A,gp41,1,A,A
+560,591,V,583,V,N-helix,572,V,V,gp41,1,V,A
+561,592,E,584,E,N-helix,573,E,E,gp41,1,E,A
+562,593,R,585,R,N-helix,574,R,R,gp41,1,R,A
+563,594,Y,586,Y,N-helix,575,Y,Y,gp41,1,Y,A
+564,595,L,587,L,N-helix,576,L,L,gp41,1,L,A
+565,596,R,588,K,N-helix,577,K,K,gp41,0,R,A
+566,597,D,589,D,N-helix,578,D,D,gp41,1,D,A
+567,598,Q,590,Q,N-helix,579,Q,Q,gp41,1,Q,A
+568,599,Q,591,Q,N-helix,580,Q,Q,gp41,1,Q,A
+569,600,L,592,L,N-helix,581,L,L,gp41,1,L,A
+570,601,L,593,L,N-helix,582,L,L,gp41,1,L,A
+571,602,G,594,G,N-helix,583,G,G,gp41,1,G,A
+572,603,I,595,I,N-helix,584,I,I,gp41,1,I,A
+573,604,W,596,W,gp41,585,W,W,gp41,1,W,A
+574,605,G,597,G,gp41,586,G,G,gp41,1,G,A
+575,606,C,598,C,gp41,587,C,C,gp41,1,C,A
+576,607,S,599,S,gp41,588,S,S,gp41,1,S,A
+577,608,G,600,G,gp41,589,G,G,gp41,1,G,A
+578,609,K,601,K,gp41,590,K,K,gp41,1,K,A
+579,610,L,602,L,gp41,591,L,L,gp41,1,L,A
+580,611,I,603,I,gp41,592,I,I,gp41,1,I,A
+581,612,C,604,C,gp41,593,C,C,gp41,1,C,A
+582,613,T,605,T,gp41,594,T,T,gp41,1,T,A
+583,614,T,606,T,gp41,595,T,T,gp41,1,T,A
+584,615,N,607,A,gp41,596,N,A,gp41,1,N,A
+585,616,V,608,V,gp41,597,V,V,gp41,1,V,A
+586,617,P,609,P,gp41,598,P,P,gp41,1,P,A
+587,618,W,610,W,gp41,599,W,W,gp41,1,W,A
+588,619,N,611,N,gp41,600,N,N,gp41,1,N,A
+589,620,A,612,A,gp41,601,S,A,gp41,0,A,A
+590,621,S,613,S,gp41,602,S,S,gp41,1,S,A
+591,622,W,614,W,gp41,603,W,W,gp41,1,W,A
+592,623,S,615,S,gp41,604,S,S,gp41,1,S,A
+593,624,N,616,N,gp41,605,N,N,gp41,1,N,A
+594,625,K,617,K,gp41,606,K,K,gp41,1,K,A
+595,626,S,618,S,C-helix,607,S,S,gp41,1,S,A
+596,627,L,619,L,C-helix,608,Q,L,gp41,0,L,A
+597,628,N,620,E,C-helix,609,D,E,gp41,0,N,A
+598,629,N,621,Q,C-helix,610,E,Q,gp41,0,N,A
+599,630,I,622,I,C-helix,611,I,I,gp41,1,I,A
+600,631,W,623,W,C-helix,612,W,W,gp41,1,W,A
+601,632,E,624,N,C-helix,613,G,N,gp41,0,E,A
+602,633,N,625,H,C-helix,614,N,H,gp41,1,N,A
+603,634,M,626,T,C-helix,615,M,T,gp41,1,M,A
+604,635,T,627,T,C-helix,616,T,T,gp41,1,T,A
+605,636,W,628,W,C-helix,617,W,W,gp41,1,W,A
+606,637,M,629,M,C-helix,618,L,M,gp41,0,M,A
+607,638,E,630,E,C-helix,619,Q,E,gp41,0,E,A
+608,639,W,631,W,C-helix,620,W,W,gp41,1,W,A
+609,640,E,632,D,C-helix,621,D,D,gp41,0,E,A
+610,641,R,633,R,C-helix,622,K,R,gp41,0,R,A
+611,642,E,634,E,C-helix,623,E,E,gp41,1,E,A
+612,643,I,635,I,C-helix,624,V,I,gp41,0,I,A
+613,644,D,636,N,C-helix,625,S,N,gp41,0,D,A
+614,645,N,637,N,C-helix,626,N,N,gp41,1,N,A
+615,646,Y,638,Y,C-helix,627,Y,Y,gp41,1,Y,A
+616,647,T,639,T,C-helix,628,T,T,gp41,1,T,A
+617,648,D,640,S,C-helix,629,Q,S,gp41,0,D,A
+618,649,L,641,L,C-helix,630,I,L,gp41,0,L,A
+619,650,I,642,I,C-helix,631,I,I,gp41,1,I,A
+620,651,Y,643,H,C-helix,632,Y,H,gp41,1,Y,A
+621,652,I,644,S,C-helix,633,T,S,gp41,0,I,A
+622,653,L,645,L,C-helix,634,L,L,gp41,1,L,A
+623,654,L,646,I,C-helix,635,I,I,gp41,0,L,A
+624,655,E,647,E,C-helix,636,E,E,gp41,1,E,A
+625,656,K,648,E,C-helix,637,E,E,gp41,0,K,A
+626,657,S,649,S,C-helix,638,S,S,gp41,1,S,A
+627,658,Q,650,Q,C-helix,639,Q,Q,gp41,1,Q,A
+628,659,I,651,N,C-helix,640,N,N,gp41,0,I,A
+629,660,Q,652,Q,C-helix,641,Q,Q,gp41,1,Q,A
+630,661,Q,653,Q,C-helix,642,Q,Q,gp41,1,Q,A
+631,662,E,654,E,C-helix,643,E,E,gp41,1,E,A
+632,663,K,655,K,C-helix,644,K,K,gp41,1,K,A
+633,664,N,656,N,C-helix,645,N,N,gp41,1,N,A
+634,665,E,657,E,C-helix,646,E,E,gp41,1,E,A
+635,666,Q,658,Q,C-helix,647,Q,Q,gp41,1,Q,A
+636,667,E,659,E,C-helix,648,D,E,gp41,0,E,A
+637,668,L,660,L,C-helix,649,L,L,gp41,1,L,A
+638,669,L,661,L,C-helix,650,L,L,gp41,1,L,A
+639,670,E,662,E,C-helix,651,A,E,gp41,0,E,A
+640,671,L,663,L,C-helix,652,L,L,gp41,1,L,A
+641,672,D,664,D,C-helix,653,D,D,gp41,1,D,A
+642,673,S,665,K,C-helix,654,K,K,gp41,0,S,A
+643,674,W,666,W,gp41,655,W,W,gp41,1,W,A
+644,675,A,667,A,gp41,656,A,A,gp41,1,A,A
+645,676,S,668,S,gp41,657,S,S,gp41,1,S,A
+646,677,L,669,L,gp41,658,L,L,gp41,1,L,A
+647,678,W,670,W,gp41,659,W,W,gp41,1,W,A
+648,679,N,671,N,gp41,660,N,N,gp41,1,N,A
+649,680,W,672,W,gp41,661,W,W,gp41,1,W,A
+650,681,F,673,F,gp41,662,F,F,gp41,1,F,A
+651,682,D,674,N,gp41,663,N,N,gp41,0,D,A
+652,683,I,675,I,gp41,664,I,I,gp41,1,I,A
+653,684,S,676,T,gp41,665,S,T,gp41,1,S,A
+654,685,K,677,N,gp41,666,Q,N,gp41,0,K,A
+655,686,W,678,W,gp41,667,W,W,gp41,1,W,A
+656,687,L,679,L,gp41,668,L,L,gp41,1,L,A
+657,688,W,680,W,gp41,669,W,W,gp41,1,W,A
+658,689,Y,681,Y,gp41,670,Y,Y,gp41,1,Y,A
+659,690,I,682,I,gp41,671,I,I,gp41,1,I,A
+660,691,K,683,K,gp41,672,K,K,gp41,1,K,A
+661,692,I,684,L,gp41,673,I,L,gp41,1,I,A
+662,693,F,685,F,transmembrane domain,674,F,F,transmembrane domain,1,F,A
+663,694,I,686,I,transmembrane domain,675,I,I,transmembrane domain,1,I,A
+664,695,M,687,M,transmembrane domain,676,I,M,transmembrane domain,0,M,A
+665,696,I,688,I,transmembrane domain,677,I,I,transmembrane domain,1,I,A
+666,697,V,689,V,transmembrane domain,678,V,V,transmembrane domain,1,V,A
+667,698,G,690,G,transmembrane domain,679,G,G,transmembrane domain,1,G,A
+668,699,G,691,G,transmembrane domain,680,G,G,transmembrane domain,1,G,A
+669,700,L,692,L,transmembrane domain,681,L,L,transmembrane domain,1,L,A
+670,701,V,693,V,transmembrane domain,682,I,V,transmembrane domain,0,V,A
+671,702,G,694,G,transmembrane domain,683,G,G,transmembrane domain,1,G,A
+672,703,L,695,L,transmembrane domain,684,L,L,transmembrane domain,1,L,A
+673,704,R,696,R,transmembrane domain,685,R,R,transmembrane domain,1,R,A
+674,705,I,697,I,transmembrane domain,686,I,I,transmembrane domain,1,I,A
+675,706,V,698,V,transmembrane domain,687,V,V,transmembrane domain,1,V,A
+676,707,F,699,F,transmembrane domain,688,F,F,transmembrane domain,1,F,A
+677,708,A,700,A,Cytoplasmic tail,689,A,A,Cytoplasmic tail,1,A,A
+678,709,V,701,V,Cytoplasmic tail,690,V,V,Cytoplasmic tail,1,V,A
+679,710,L,702,L,Cytoplasmic tail,691,L,L,Cytoplasmic tail,1,L,A
+680,711,S,703,S,Cytoplasmic tail,692,S,S,Cytoplasmic tail,1,S,A
+681,712,I,704,I,Cytoplasmic tail,693,V,I,Cytoplasmic tail,0,I,A
+682,713,A,705,V,Cytoplasmic tail,694,I,V,Cytoplasmic tail,0,A,A
+683,714,N,706,N,Cytoplasmic tail,695,N,N,Cytoplasmic tail,1,N,A
+684,715,R,707,R,Cytoplasmic tail,696,R,R,Cytoplasmic tail,1,R,A
+685,716,V,708,V,Cytoplasmic tail,697,V,V,Cytoplasmic tail,1,V,A
+686,717,R,709,R,Cytoplasmic tail,698,R,R,Cytoplasmic tail,1,R,A
+687,718,Q,710,Q,Cytoplasmic tail,699,Q,Q,Cytoplasmic tail,1,Q,A
+688,719,G,711,G,Cytoplasmic tail,700,G,G,Cytoplasmic tail,1,G,A
+689,720,Y,712,Y,Cytoplasmic tail,701,Y,Y,Cytoplasmic tail,1,Y,A
+690,721,S,713,S,Cytoplasmic tail,702,S,S,Cytoplasmic tail,1,S,A
+691,722,P,714,P,Cytoplasmic tail,703,P,P,Cytoplasmic tail,1,P,A
+692,723,L,715,L,Cytoplasmic tail,704,L,L,Cytoplasmic tail,1,L,A
+693,724,S,716,S,Cytoplasmic tail,705,S,S,Cytoplasmic tail,1,S,A
+694,725,F,717,F,Cytoplasmic tail,706,F,F,Cytoplasmic tail,1,F,A
+695,726,Q,718,Q,Cytoplasmic tail,707,Q,Q,Cytoplasmic tail,1,Q,A
+696,727,T,719,T,Cytoplasmic tail,708,T,T,Cytoplasmic tail,1,T,A
+697,728,R,720,H,Cytoplasmic tail,709,R,H,Cytoplasmic tail,1,R,A
+698,729,L,721,L,Cytoplasmic tail,710,T,L,Cytoplasmic tail,0,L,A
+699,730,P,722,P,Cytoplasmic tail,711,P,P,Cytoplasmic tail,1,P,A
+700,731,T,723,T,Cytoplasmic tail,712,N,T,Cytoplasmic tail,0,T,A
+701,732,P,724,P,Cytoplasmic tail,713,P,P,Cytoplasmic tail,1,P,A
+702,733,R,725,R,Cytoplasmic tail,714,G,R,Cytoplasmic tail,0,R,A
+703,734,G,726,G,Cytoplasmic tail,715,E,G,Cytoplasmic tail,0,G,A
+704,735,P,727,P,Cytoplasmic tail,716,L,P,Cytoplasmic tail,0,P,A
+705,736,D,728,D,Cytoplasmic tail,717,D,D,Cytoplasmic tail,1,D,A
+706,737,R,729,R,Cytoplasmic tail,718,R,R,Cytoplasmic tail,1,R,A
+707,738,P,730,P,Cytoplasmic tail,719,P,P,Cytoplasmic tail,1,P,A
+708,739,E,731,E,Cytoplasmic tail,720,G,E,Cytoplasmic tail,0,E,A
+709,740,G,732,G,Cytoplasmic tail,721,R,G,Cytoplasmic tail,0,G,A
+710,741,I,733,I,Cytoplasmic tail,722,I,I,Cytoplasmic tail,1,I,A
+711,742,E,734,E,Cytoplasmic tail,723,E,E,Cytoplasmic tail,1,E,A
+712,743,K,735,E,Cytoplasmic tail,724,E,E,Cytoplasmic tail,0,K,A
+713,744,E,736,E,Cytoplasmic tail,725,E,E,Cytoplasmic tail,1,E,A
+714,745,G,737,G,Cytoplasmic tail,726,G,G,Cytoplasmic tail,1,G,A
+715,746,G,738,G,Cytoplasmic tail,727,G,G,Cytoplasmic tail,1,G,A
+716,747,G,739,E,Cytoplasmic tail,728,E,E,Cytoplasmic tail,0,G,A
+717,748,R,740,R,Cytoplasmic tail,729,Q,R,Cytoplasmic tail,0,R,A
+718,749,D,741,D,Cytoplasmic tail,730,D,D,Cytoplasmic tail,1,D,A
+719,750,R,742,R,Cytoplasmic tail,731,R,R,Cytoplasmic tail,1,R,A
+720,751,D,743,D,Cytoplasmic tail,732,G,D,Cytoplasmic tail,0,D,A
+721,752,G,744,R,Cytoplasmic tail,733,R,R,Cytoplasmic tail,0,G,A
+722,753,S,745,S,Cytoplasmic tail,734,S,S,Cytoplasmic tail,1,S,A
+723,754,R,746,I,Cytoplasmic tail,735,I,I,Cytoplasmic tail,0,R,A
+724,755,P,747,R,Cytoplasmic tail,736,R,R,Cytoplasmic tail,0,P,A
+725,756,L,748,L,Cytoplasmic tail,737,L,L,Cytoplasmic tail,1,L,A
+726,757,V,749,V,Cytoplasmic tail,738,V,V,Cytoplasmic tail,1,V,A
+727,758,H,750,N,Cytoplasmic tail,739,S,N,Cytoplasmic tail,0,H,A
+728,759,G,751,G,Cytoplasmic tail,740,G,G,Cytoplasmic tail,1,G,A
+729,760,L,752,S,Cytoplasmic tail,741,F,S,Cytoplasmic tail,0,L,A
+730,761,L,753,L,Cytoplasmic tail,742,L,L,Cytoplasmic tail,1,L,A
+731,762,A,754,A,Cytoplasmic tail,743,A,A,Cytoplasmic tail,1,A,A
+732,763,L,755,L,Cytoplasmic tail,744,L,L,Cytoplasmic tail,1,L,A
+733,764,I,756,I,Cytoplasmic tail,745,A,I,Cytoplasmic tail,0,I,A
+734,765,W,757,W,Cytoplasmic tail,746,W,W,Cytoplasmic tail,1,W,A
+735,766,D,758,D,Cytoplasmic tail,747,D,D,Cytoplasmic tail,1,D,A
+736,767,D,759,D,Cytoplasmic tail,748,D,D,Cytoplasmic tail,1,D,A
+737,768,L,760,L,Cytoplasmic tail,749,L,L,Cytoplasmic tail,1,L,A
+738,769,R,761,R,Cytoplasmic tail,750,R,R,Cytoplasmic tail,1,R,A
+739,770,S,762,S,Cytoplasmic tail,751,S,S,Cytoplasmic tail,1,S,A
+740,771,L,763,L,Cytoplasmic tail,752,L,L,Cytoplasmic tail,1,L,A
+741,772,C,764,C,Cytoplasmic tail,753,C,C,Cytoplasmic tail,1,C,A
+742,773,L,765,L,Cytoplasmic tail,754,L,L,Cytoplasmic tail,1,L,A
+743,774,F,766,F,Cytoplasmic tail,755,F,F,Cytoplasmic tail,1,F,A
+744,775,S,767,S,Cytoplasmic tail,756,S,S,Cytoplasmic tail,1,S,A
+745,776,Y,768,Y,Cytoplasmic tail,757,Y,Y,Cytoplasmic tail,1,Y,A
+746,777,H,769,H,Cytoplasmic tail,758,H,H,Cytoplasmic tail,1,H,A
+747,778,R,770,R,Cytoplasmic tail,759,R,R,Cytoplasmic tail,1,R,A
+748,779,L,771,L,Cytoplasmic tail,760,L,L,Cytoplasmic tail,1,L,A
+749,780,R,772,R,Cytoplasmic tail,761,R,R,Cytoplasmic tail,1,R,A
+750,781,D,773,D,Cytoplasmic tail,762,D,D,Cytoplasmic tail,1,D,A
+751,782,L,774,L,Cytoplasmic tail,763,F,L,Cytoplasmic tail,0,L,A
+752,783,L,775,L,Cytoplasmic tail,764,I,L,Cytoplasmic tail,0,L,A
+753,784,L,776,L,Cytoplasmic tail,765,L,L,Cytoplasmic tail,1,L,A
+754,785,I,777,I,Cytoplasmic tail,766,I,I,Cytoplasmic tail,1,I,A
+755,786,V,778,V,Cytoplasmic tail,767,A,V,Cytoplasmic tail,0,V,A
+756,787,T,779,T,Cytoplasmic tail,768,T,T,Cytoplasmic tail,1,T,A
+757,788,R,780,R,Cytoplasmic tail,769,R,R,Cytoplasmic tail,1,R,A
+758,789,T,781,I,Cytoplasmic tail,770,T,I,Cytoplasmic tail,1,T,A
+759,790,V,782,V,Cytoplasmic tail,771,V,V,Cytoplasmic tail,1,V,A
+760,791,E,783,E,Cytoplasmic tail,772,E,E,Cytoplasmic tail,1,E,A
+761,792,L,784,L,Cytoplasmic tail,773,L,L,Cytoplasmic tail,1,L,A
+762,793,L,785,L,Cytoplasmic tail,774,L,L,Cytoplasmic tail,1,L,A
+763,794,G,786,G,Cytoplasmic tail,775,G,G,Cytoplasmic tail,1,G,A
+764,795,R,787,R,Cytoplasmic tail,783,R,R,Cytoplasmic tail,1,R,A
+765,796,R,788,R,Cytoplasmic tail,784,L,R,Cytoplasmic tail,0,R,A
+766,797,G,789,G,Cytoplasmic tail,785,G,G,Cytoplasmic tail,1,G,A
+767,798,W,790,W,Cytoplasmic tail,786,W,W,Cytoplasmic tail,1,W,A
+768,799,E,791,E,Cytoplasmic tail,787,E,E,Cytoplasmic tail,1,E,A
+769,800,L,792,A,Cytoplasmic tail,788,S,A,Cytoplasmic tail,0,L,A
+770,801,L,793,L,Cytoplasmic tail,789,L,L,Cytoplasmic tail,1,L,A
+771,802,K,794,K,Cytoplasmic tail,790,K,K,Cytoplasmic tail,1,K,A
+772,803,Y,795,Y,Cytoplasmic tail,791,Y,Y,Cytoplasmic tail,1,Y,A
+773,804,W,796,W,Cytoplasmic tail,792,L,W,Cytoplasmic tail,0,W,A
+774,805,W,797,W,Cytoplasmic tail,793,G,W,Cytoplasmic tail,0,W,A
+775,806,N,798,N,Cytoplasmic tail,794,N,N,Cytoplasmic tail,1,N,A
+776,807,L,799,L,Cytoplasmic tail,795,L,L,Cytoplasmic tail,1,L,A
+777,808,L,800,L,Cytoplasmic tail,796,L,L,Cytoplasmic tail,1,L,A
+778,809,Q,801,Q,Cytoplasmic tail,797,V,Q,Cytoplasmic tail,0,Q,A
+779,810,Y,802,Y,Cytoplasmic tail,798,Y,Y,Cytoplasmic tail,1,Y,A
+780,811,W,803,W,Cytoplasmic tail,799,W,W,Cytoplasmic tail,1,W,A
+781,812,S,804,S,Cytoplasmic tail,800,G,S,Cytoplasmic tail,0,S,A
+782,813,Q,805,Q,Cytoplasmic tail,801,R,Q,Cytoplasmic tail,0,Q,A
+783,814,E,806,E,Cytoplasmic tail,802,E,E,Cytoplasmic tail,1,E,A
+784,815,L,807,L,Cytoplasmic tail,803,L,L,Cytoplasmic tail,1,L,A
+785,816,K,808,K,Cytoplasmic tail,804,K,K,Cytoplasmic tail,1,K,A
+786,817,N,809,N,Cytoplasmic tail,805,I,N,Cytoplasmic tail,0,N,A
+787,818,S,810,S,Cytoplasmic tail,806,S,S,Cytoplasmic tail,1,S,A
+788,819,A,811,A,Cytoplasmic tail,807,A,A,Cytoplasmic tail,1,A,A
+789,820,V,812,V,Cytoplasmic tail,808,I,V,Cytoplasmic tail,0,V,A
+790,821,S,813,S,Cytoplasmic tail,809,N,S,Cytoplasmic tail,0,S,A
+791,822,L,814,L,Cytoplasmic tail,810,L,L,Cytoplasmic tail,1,L,A
+792,823,L,815,L,Cytoplasmic tail,811,C,L,Cytoplasmic tail,0,L,A
+793,824,N,816,N,Cytoplasmic tail,812,D,N,Cytoplasmic tail,0,N,A
+794,825,T,817,A,Cytoplasmic tail,813,T,A,Cytoplasmic tail,1,T,A
+795,826,T,818,T,Cytoplasmic tail,814,I,T,Cytoplasmic tail,0,T,A
+796,827,A,819,A,Cytoplasmic tail,815,A,A,Cytoplasmic tail,1,A,A
+797,828,I,820,I,Cytoplasmic tail,816,I,I,Cytoplasmic tail,1,I,A
+798,829,A,821,A,Cytoplasmic tail,817,A,A,Cytoplasmic tail,1,A,A
+799,830,V,822,V,Cytoplasmic tail,818,V,V,Cytoplasmic tail,1,V,A
+800,831,A,823,A,Cytoplasmic tail,819,A,A,Cytoplasmic tail,1,A,A
+801,832,E,824,E,Cytoplasmic tail,820,G,E,Cytoplasmic tail,0,E,A
+802,833,G,825,G,Cytoplasmic tail,821,W,G,Cytoplasmic tail,0,G,A
+803,834,T,826,T,Cytoplasmic tail,822,T,T,Cytoplasmic tail,1,T,A
+804,835,D,827,D,Cytoplasmic tail,823,D,D,Cytoplasmic tail,1,D,A
+805,836,R,828,R,Cytoplasmic tail,824,R,R,Cytoplasmic tail,1,R,A
+806,837,V,829,V,Cytoplasmic tail,825,V,V,Cytoplasmic tail,1,V,A
+807,838,I,830,I,Cytoplasmic tail,826,I,I,Cytoplasmic tail,1,I,A
+808,839,E,831,E,Cytoplasmic tail,827,E,E,Cytoplasmic tail,1,E,A
+809,840,V,832,V,Cytoplasmic tail,828,L,V,Cytoplasmic tail,0,V,A
+810,841,V,833,V,Cytoplasmic tail,829,G,V,Cytoplasmic tail,0,V,A
+811,842,Q,834,Q,Cytoplasmic tail,830,Q,Q,Cytoplasmic tail,1,Q,A
+812,843,R,835,G,Cytoplasmic tail,831,R,G,Cytoplasmic tail,1,R,A
+813,844,A,836,A,Cytoplasmic tail,832,L,A,Cytoplasmic tail,0,A,A
+814,845,F,837,C,Cytoplasmic tail,833,C,C,Cytoplasmic tail,0,F,A
+815,846,R,838,R,Cytoplasmic tail,834,R,R,Cytoplasmic tail,1,R,A
+816,847,A,839,A,Cytoplasmic tail,835,A,A,Cytoplasmic tail,1,A,A
+817,848,I,840,I,Cytoplasmic tail,836,I,I,Cytoplasmic tail,1,I,A
+818,849,L,841,R,Cytoplasmic tail,837,L,R,Cytoplasmic tail,1,L,A
+819,850,H,842,H,Cytoplasmic tail,838,H,H,Cytoplasmic tail,1,H,A
+820,851,I,843,I,Cytoplasmic tail,839,I,I,Cytoplasmic tail,1,I,A
+821,852,P,844,P,Cytoplasmic tail,840,P,P,Cytoplasmic tail,1,P,A
+822,853,A,845,R,Cytoplasmic tail,841,R,R,Cytoplasmic tail,0,A,A
+823,854,R,846,R,Cytoplasmic tail,842,R,R,Cytoplasmic tail,1,R,A
+824,855,I,847,I,Cytoplasmic tail,843,I,I,Cytoplasmic tail,1,I,A
+825,856,R,848,R,Cytoplasmic tail,844,R,R,Cytoplasmic tail,1,R,A
+826,857,Q,849,Q,Cytoplasmic tail,845,Q,Q,Cytoplasmic tail,1,Q,A
+827,858,G,850,G,Cytoplasmic tail,846,G,G,Cytoplasmic tail,1,G,A
+828,859,L,851,L,Cytoplasmic tail,847,F,L,Cytoplasmic tail,0,L,A
+829,860,E,852,E,Cytoplasmic tail,848,E,E,Cytoplasmic tail,1,E,A
+830,861,R,853,R,Cytoplasmic tail,849,R,R,Cytoplasmic tail,1,R,A
+831,862,A,854,I,Cytoplasmic tail,850,A,I,Cytoplasmic tail,1,A,A
+832,863,L,855,L,Cytoplasmic tail,851,L,L,Cytoplasmic tail,1,L,A
+833,864,L,856,L,Cytoplasmic tail,852,L,L,Cytoplasmic tail,1,L,A
+834,865,*,856a,-,Cytoplasmic tail,853,*,-,Cytoplasmic tail,1,*,A
