@@ -52,6 +52,7 @@ results/antibody_escape/by_selection/*.csv
 
 !results/dms-viz
 !results/dms-viz/*
+results/dms-viz/.ipynb_checkpoints*
 !results/escape_PDBs
 !results/escape_PDBs/*
 !results/logoplots
