@@ -61,3 +61,4 @@ results/dms-viz/.ipynb_checkpoints*
 !results/trees/*
 !results/heatmaps
 !results/heatmaps/*
+results/heatmaps/.ipynb_checkpoints*
