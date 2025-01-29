@@ -62,3 +62,6 @@ results/dms-viz/.ipynb_checkpoints*
 !results/heatmaps
 !results/heatmaps/*
 results/heatmaps/.ipynb_checkpoints*
+!results/filtered_csvs
+!results/filtered_csvs/*
+results/filtered_csvs/.ipynb_checkpoints*
