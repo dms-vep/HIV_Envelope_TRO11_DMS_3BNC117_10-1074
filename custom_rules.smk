@@ -324,6 +324,37 @@ rule heatmaps:
             &> {log}
         """
 
+rule filter_csvs:
+    """Filter csv outputs from various analyses"""
+    input: 
+        "results/func_effects/averages/TZM-bl_entry_func_effects.csv",
+        "results/func_effects/averages/TZM-bl_entry_latent_effects.csv",
+        "results/antibody_escape/averages/10-1074_mut_effect.csv",
+        "results/antibody_escape/averages/3BNC117_mut_effect.csv",
+        "../HIV_Envelope_BF520_DMS_3BNC117_10-1074/results/func_effects/averages/TZM-bl_entry_func_effects.csv",
+        "../HIV_Envelope_BF520_DMS_3BNC117_10-1074/results/func_effects/averages/TZM-bl_entry_latent_effects.csv",
+        "../HIV_Envelope_BF520_DMS_3BNC117_10-1074/results/antibody_escape/averages/10-1074_mut_effect.csv",
+        "../HIV_Envelope_BF520_DMS_3BNC117_10-1074/results/antibody_escape/averages/3BNC117_mut_effect.csv",
+        nb="notebooks/filter_csvs.ipynb",
+    output:
+        "results/filtered_csvs/BF520_Env_TZM-bl_entry_func_effects_filtered.csv",
+        "results/filtered_csvs/BF520_Env_TZM-bl_entry_latent_effects_filtered.csv",
+        "results/filtered_csvs/BF520_Env_3BNC117_mut_effects_filtered.csv",
+        "results/filtered_csvs/BF520_Env_10-1074_mut_effects_filtered.csv",
+        "results/filtered_csvs/TRO11_Env_TZM-bl_entry_func_effects_filtered.csv",
+        "results/filtered_csvs/TRO11_Env_TZM-bl_entry_latent_effects_filtered.csv",
+        "results/filtered_csvs/TRO11_Env_3BNC117_mut_effects_filtered.csv",
+        "results/filtered_csvs/TRO11_Env_10-1074_mut_effects_filtered.csv",
+        nb="results/notebooks/filter_csvs.ipynb",
+    log:
+        "results/logs/filter_csvs.txt"
+    shell:
+        """
+        papermill {input.nb} {output.nb} \
+            &> {log}
+        """
+
+
 # Files (Jupyter notebooks, HTML plots, or CSVs) that you want included in
 # the HTML docs should be added to the nested dict `docs`:
 docs["Additional analysis-specific files"] = {
@@ -332,6 +363,18 @@ docs["Additional analysis-specific files"] = {
         "Comparison of escape across strains": "results/notebooks/strain_escape_comparison.ipynb",
         "Comparison of DMS escape measurements to traditional neutralization assays": "results/notebooks/validation_ICs.ipynb",
     }
+
+docs["Filtered CSV files"] = {
+        "BF520 Env cell entry effects": "results/filtered_csvs/BF520_Env_TZM-bl_entry_func_effects_filtered.csv",
+        "BF520 Env cell entry latent effects": "results/filtered_csvs/BF520_Env_TZM-bl_entry_latent_effects_filtered.csv",
+        "BF520 Env 3BNC117 escape effects": "results/filtered_csvs/BF520_Env_3BNC117_mut_effects_filtered.csv",
+        "BF520 Env 10-1074 escape effects": "results/filtered_csvs/BF520_Env_10-1074_mut_effects_filtered.csv",
+        "TRO11 Env cell entry effects": "results/filtered_csvs/TRO11_Env_TZM-bl_entry_func_effects_filtered.csv",
+        "TRO11 Env cell entry latent effects": "results/filtered_csvs/TRO11_Env_TZM-bl_entry_latent_effects_filtered.csv",
+        "TRO11 Env 3BNC117 escape effects": "results/filtered_csvs/TRO11_Env_3BNC117_mut_effects_filtered.csv",
+        "TRO11 Env 10-1074 escape effects": "results/filtered_csvs/TRO11_Env_10-1074_mut_effects_filtered.csv",
+}
+
 for file in expand(rules.format_dms_viz.output.output_json_file_name, antibody=antibody_gv, assay='antibody_escape'):
     other_target_files.append(file)
 for file in expand(rules.color_PDB_structures.output.output_pdb_file_name, antibody=antibody_gv, assay='antibody_escape'):
@@ -343,4 +386,6 @@ other_target_files.append("results/escape_PDBs/conservation.pdb")
 other_target_files.append("results/escape_PDBs/func_effects.pdb")
 other_target_files.append("results/dms-viz/conservation.json")
 for file in rules.heatmaps.output:
+    other_target_files.append(file)
+for file in rules.filter_csvs.output:
     other_target_files.append(file)
